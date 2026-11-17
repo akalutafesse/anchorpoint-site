@@ -1,0 +1,5 @@
+_previous/
+LAUNCH_CHECKLIST.md
+__pycache__/
+.DS_Store
+_site/

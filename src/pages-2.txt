@@ -1,0 +1,420 @@
+=== sectors
+title: Sectors | Anchor Point Engineers & Consultants
+desc: Engineering, project management and infrastructure advisory services structured around the technical, operational and management requirements of each sector we work with.
+nav: sectors
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Sectors</span>
+    <h1>Infrastructure expertise across sectors.</h1>
+    <p class="lead">We understand that different infrastructure stakeholders face different challenges. Our services are structured to respond to the technical, operational and management requirements of the organizations we work with.</p>
+  </div>
+</section>
+
+<!-- Only display sectors the company is genuinely prepared and qualified to serve. -->
+<section class="sec">
+  <div class="wrap">
+    <div class="rows" style="margin-top:0">
+      <div class="row"><h3>Public Infrastructure &amp; Government</h3><p>Supporting public institutions with engineering consultancy, project management, construction supervision and infrastructure management services.</p></div>
+      <div class="row"><h3>Roads &amp; Transportation</h3><p>Supporting the planning, implementation, supervision and management of road and transportation infrastructure.</p></div>
+      <div class="row"><h3>Buildings &amp; Civil Structures</h3><p>Providing relevant engineering and project management services for building and civil infrastructure assignments within our qualified capabilities.</p></div>
+      <div class="row"><h3>Infrastructure Development &amp; Investment</h3><p>Supporting developers and investors with technical assessments, project advisory and implementation oversight.</p></div>
+      <div class="row"><h3>Contractors &amp; Construction Industry</h3><p>Supporting construction organizations through project management, technical review, contract administration and quality oversight.</p></div>
+      <div class="row"><h3>Development Programmes</h3><p>Providing technical and project implementation support for organizations involved in infrastructure and development initiatives.</p></div>
+    </div>
+    <div class="btns"><a href="services.html" class="btn line">Explore Our Services</a><a href="projects.html" class="more" style="align-self:center">Projects &amp; Experience</a></div>
+  </div>
+</section>
+
+<section class="cta navy">
+  <div class="wrap">
+    <h2>Let&rsquo;s discuss your next infrastructure project.</h2>
+    <p>Whether you are planning a new development, managing an ongoing project or seeking independent technical and project advisory support, our team would welcome the opportunity to understand your requirements.</p>
+    <div class="btns"><a href="contact.html" class="btn light">Discuss a Project</a></div>
+  </div>
+</section>
+
+=== projects
+title: Selected Infrastructure Projects & Professional Experience | Anchor Point
+desc: Selected assignments and professional contributions in road construction, asset management and project implementation across Ethiopia that inform the capabilities of Anchor Point's leadership.
+nav: projects
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Projects &amp; Professional Experience</span>
+    <h1>Experience built through infrastructure delivery.</h1>
+    <p class="lead">Our professional background includes involvement in major infrastructure programmes, road construction contracts, asset management initiatives and project implementation activities across Ethiopia.</p>
+    <p class="lead">The experience presented here reflects selected assignments and professional contributions that inform the capabilities of Anchor Point&rsquo;s leadership.</p>
+  </div>
+</section>
+
+<!-- CANDIDATE PORTFOLIO — NOT YET VERIFIED.
+     Brief Part 7 requires each project as a full case study: Project Overview, Scope of Work,
+     Professional Contribution, Project Outcomes, exact role, period and a photograph.
+     None of that has been supplied, so the cards show only the fields carried over from the
+     existing website. Add role/period in build.py PROJECTS and photographs in assets/photos/project-<slug>.jpg.
+     Do not label these as Anchor Point projects. -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Selected Professional Experience</span>
+      <h2>Road construction contracts.</h2>
+      <p class="lead">Assignments undertaken during the founder&rsquo;s previous professional service. They are not contracts executed by Anchor Point Engineers and Consultants.</p>
+    </div>
+    {{projects:all}}
+    <p class="fn">Figures reflect selected professional experience and assignments associated with the firm&rsquo;s leadership. They do not represent Anchor Point&rsquo;s corporate revenue or independently completed corporate portfolio.</p>
+  </div>
+</section>
+
+<!-- Only describe work as implemented or nationally adopted if verified. Distinguish proposals and advisory contributions from operational achievements. -->
+<section class="sec navy">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Featured Professional Capability</span>
+        <h2>Advancing a performance-based approach to road maintenance.</h2>
+      </div>
+      <div class="prose">
+        <p>Traditional infrastructure maintenance arrangements can place greater emphasis on completed activities and measured quantities than on the long-term performance of the assets being maintained.</p>
+        <p>Performance-based maintenance approaches offer a different model, linking defined service levels, measurable performance indicators and structured inspection processes to maintenance obligations.</p>
+        <p>Professional experience in this area includes involvement in the preparation of an OPRC proposal for the Ethiopian Roads Administration, alongside work related to infrastructure monitoring, asset management and maintenance systems.</p>
+      </div>
+    </div>
+    <div class="flow five">
+      <div class="fstep"><span></span><b>Establish measurable road service standards.</b></div>
+      <div class="fstep"><span></span><b>Define maintenance obligations.</b></div>
+      <div class="fstep"><span></span><b>Monitor infrastructure condition.</b></div>
+      <div class="fstep"><span></span><b>Verify performance through inspections.</b></div>
+      <div class="fstep"><span></span><b>Link payment to contractual performance requirements.</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Let&rsquo;s discuss your next infrastructure project.</h2>
+    <p>Whether you are planning a new development, managing an ongoing project or seeking independent technical and project advisory support, our team would welcome the opportunity to understand your requirements.</p>
+    <div class="btns"><a href="contact.html" class="btn solid">Discuss a Project</a></div>
+  </div>
+</section>
+
+=== technology
+title: Engineering Technology & AI-Assisted Analysis | Anchor Point
+desc: How Anchor Point integrates modern digital tools and AI-assisted analysis into professional engineering and project management workflows, with engineers responsible for review and verification.
+nav: technology
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Technology &amp; Innovation</span>
+    <h1 style="max-width:22ch">Engineering expertise, enhanced by intelligent technology.</h1>
+    <p class="lead">The complexity of modern infrastructure projects demands more effective ways to manage information, assess performance and identify emerging risks.</p>
+    <p class="lead">At Anchor Point, we recognize the role that technology can play in strengthening professional engineering and project management.</p>
+    <p class="lead">Through the integration of modern digital tools and AI-assisted analysis, we aim to improve the efficiency, consistency and visibility of our professional workflows.</p>
+    <p class="lead">Our approach brings together engineering judgment, analytical capabilities and structured project information.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:0"><span class="eyebrow">Capabilities</span><h2>Our technology-enabled capabilities</h2></div>
+    <div class="flow" role="img" aria-label="Project information, then digital analysis, then professional engineering review, then informed decisions">
+      <div class="fstep"><span></span><b>Project Information</b></div>
+      <div class="fstep"><span></span><b>Digital Analysis</b></div>
+      <div class="fstep"><span></span><b>Professional Engineering Review</b></div>
+      <div class="fstep"><span></span><b>Informed Decisions</b></div>
+    </div>
+    <div class="rows">
+      <div class="row"><h3>Project Document Review</h3><p>Digital tools can assist in reviewing contracts, drawings, technical submissions and project documentation to improve information organization and identify potential inconsistencies.</p></div>
+      <div class="row"><h3>Schedule &amp; Performance Analysis</h3><p>Analytical tools can help assess project schedules, identify emerging delays and support more effective monitoring of implementation progress.</p></div>
+      <div class="row"><h3>Quantity &amp; Payment Review</h3><p>Technology-assisted analysis can support the examination of quantities, payment documentation and project records, subject to professional verification.</p></div>
+      <div class="row"><h3>Infrastructure Monitoring</h3><p>Digital systems can support the organization and interpretation of infrastructure condition information and maintenance priorities.</p></div>
+      <div class="row"><h3>Reporting &amp; Decision Support</h3><p>Structured project information can improve the preparation of reports, management summaries and decision-support materials.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec navy">
+  <div class="wrap">
+    <div class="split">
+      <div><span class="eyebrow">Engineering Accountability</span><h2>Professional judgment remains at the centre of every engagement.</h2></div>
+      <div class="prose">
+        <p>Technology supports our analytical processes. It does not replace professional engineering responsibility.</p>
+        <p>Our approach emphasizes the review, verification and interpretation of analytical outputs by appropriately qualified professionals before they are used in engineering advice or project decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VERIFY the exact nature of the North Point AI partnership before publication (brief Part 16, item 9). -->
+<section class="sec ivory">
+  <div class="wrap">
+    <div class="split">
+      <div><span class="eyebrow">Technology Partnership</span><h2>Combining engineering and technology expertise.</h2></div>
+      <div class="prose">
+        <p>Anchor Point works in partnership with North Point AI, a technology company with capabilities in artificial intelligence, data systems and digital solutions.</p>
+        <p>The partnership provides a foundation for integrating advanced analytical and digital capabilities into engineering and infrastructure management workflows.</p>
+        <p>Anchor Point remains responsible for its engineering consultancy services, while North Point AI contributes technology capabilities within the scope of the partnership.</p>
+        <div class="lockup">
+          <span class="logo"><svg viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="4" fill="#14283F"/><path d="M22 8 11.5 35M22 8l10.5 27" stroke="#F7F6F2" stroke-width="2.6" stroke-linecap="round" fill="none"/><circle cx="22" cy="26.5" r="2.6" fill="#B89A68"/></svg><span><b>Anchor Point</b><span>Engineers &amp; Consultants</span></span></span>
+          <i></i>
+          <a href="https://northpoint-ai.com" target="_blank" rel="noopener" aria-label="North Point AI website"><img src="assets/northpoint-ai-logo.webp" alt="North Point AI" width="160" height="30" loading="lazy"></a>
+        </div>
+        <div class="btns"><a href="https://northpoint-ai.com" target="_blank" rel="noopener" class="more">Visit North Point AI</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta navy">
+  <div class="wrap">
+    <h2>Let&rsquo;s discuss your next infrastructure project.</h2>
+    <p>Whether you are planning a new development, managing an ongoing project or seeking independent technical and project advisory support, our team would welcome the opportunity to understand your requirements.</p>
+    <div class="btns"><a href="contact.html" class="btn light">Discuss a Project</a></div>
+  </div>
+</section>
+
+=== leadership
+title: Leadership & Professional Expertise | Anchor Point
+desc: Anchor Point is led by Eng. Biniyam Regassa Merga, Founder and Chief Executive Officer, an infrastructure and engineering professional with more than 15 years of experience in Ethiopia.
+nav: about
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Leadership &amp; Team</span>
+    <h1>Leadership grounded in experience.</h1>
+  </div>
+</section>
+
+<!-- Supply assets/photos/leadership-portrait.jpg (professional executive photograph) and assets/cv/Biniyam-Regassa-Merga-CV.pdf.
+     VERIFY biography, exact titles and appointment dates before publication. -->
+<section class="sec">
+  <div class="wrap">
+    <div class="{{leader_class}}" style="align-items:start">
+      {{photo:leadership-portrait|Eng. Biniyam Regassa Merga, Founder and Chief Executive Officer}}
+      <div class="lead-txt">
+        <div>
+          <span class="eyebrow">Featured Profile</span>
+          <h2>Eng. Biniyam Regassa Merga</h2>
+          <div class="who" style="border-top:none;padding-top:0;margin-top:18px">
+            <span class="role">Founder &amp; Chief Executive Officer</span>
+            <span>M.Sc. Civil Engineering</span>
+            <span>Practicing Professional Engineer</span>
+          </div>
+          <div class="btns">{{cv}}<a href="contact.html" class="btn line">Discuss a Project</a></div>
+        </div>
+        <div class="prose">
+          <p>Eng. Biniyam Regassa Merga is an infrastructure and engineering professional with more than 15 years of experience spanning road infrastructure development, project management and road asset management in Ethiopia.</p>
+          <p>During his career at the Ethiopian Roads Administration, he progressed from Project Engineer to senior responsibilities within Road Asset Management, including serving in an acting road maintenance director capacity.</p>
+          <p>His professional experience encompasses involvement in major road construction programmes, infrastructure maintenance systems, performance-based road maintenance initiatives, institutional monitoring frameworks and the application of digital technologies to infrastructure management.</p>
+          <p>He brings this combination of public-sector experience, technical knowledge and project delivery expertise to Anchor Point, with a commitment to strengthening infrastructure outcomes through professional accountability, disciplined execution and modern engineering practices.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Display subject to documentary verification. -->
+<section class="sec ivory">
+  <div class="wrap">
+    <div class="split">
+      <div><span class="eyebrow">Qualifications</span><h2>Professional credentials</h2></div>
+      <ul class="creds">
+        <li>Practicing Professional Engineer &mdash; Registration PPECM/6776.</li>
+        <li>M.Sc. Civil Engineering &mdash; Addis Ababa University, 2015.</li>
+        <li>B.Sc. Construction Technology &amp; Management &mdash; Addis Ababa University, 2011.</li>
+        <li>ISO 9001:2015 Lead Auditor.</li>
+        <li>Road Safety Audit &amp; Inspection.</li>
+        <li>Performance-Based Road Maintenance Contracts.</li>
+        <li>Project Monitoring &amp; Evaluation.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Use the exact appointment dates and titles after verification. -->
+<section class="sec">
+  <div class="wrap">
+    <div class="split">
+      <div><span class="eyebrow">Career</span><h2>Career timeline</h2></div>
+      <ol class="timeline">
+        <li><b>2012 &mdash; Project Engineer</b>Ethiopian Roads Administration.</li>
+        <li><b>Subsequent professional progression</b>Senior responsibilities within Road Asset Management, including acting road maintenance director responsibilities.</li>
+        <li><b>2026 &mdash; Founder &amp; CEO</b>Anchor Point Engineers and Consultants.</li>
+      </ol>
+    </div>
+    <div class="btns" style="margin-top:64px"><a href="projects.html" class="btn line">Selected Projects &amp; Professional Experience</a></div>
+  </div>
+</section>
+
+<section class="cta navy">
+  <div class="wrap">
+    <h2>Let&rsquo;s discuss your next infrastructure project.</h2>
+    <p>Whether you are planning a new development, managing an ongoing project or seeking independent technical and project advisory support, our team would welcome the opportunity to understand your requirements.</p>
+    <div class="btns"><a href="contact.html" class="btn light">Discuss a Project</a></div>
+  </div>
+</section>
+
+=== training
+title: Professional Training | Anchor Point Engineers & Consultants
+desc: Practical, industry-focused training designed to strengthen technical competence, improve project execution and support the development of engineering and infrastructure professionals.
+nav: services
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Professional Training</span>
+    <h1>Building capability for better infrastructure delivery.</h1>
+    <p class="lead">The quality of infrastructure delivery depends not only on systems and resources, but also on the knowledge and capabilities of the professionals responsible for implementation.</p>
+    <p class="lead">Anchor Point provides practical, industry-focused training designed to strengthen technical competence, improve project execution and support the continuous development of engineering and infrastructure professionals.</p>
+  </div>
+</section>
+
+<!-- Only advertise courses when their curriculum, trainers and delivery arrangements are ready. Remove any that are not. -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Programmes</span><h2>Training programmes</h2></div>
+    <div class="grid3">
+      <div class="item"><h3>Project Management Essentials</h3><p>Practical approaches to project planning, coordination, implementation and monitoring.</p></div>
+      <div class="item"><h3>Planning &amp; Scheduling</h3><p>Project scheduling, critical-path analysis, programme monitoring and progress reporting.</p></div>
+      <div class="item"><h3>Cost Control &amp; Quantity Surveying</h3><p>Cost monitoring, quantity measurement, valuation and financial control.</p></div>
+      <div class="item"><h3>Contract Administration &amp; FIDIC</h3><p>Contract administration principles, contractual obligations, documentation and construction contract management.</p></div>
+      <div class="item"><h3>Construction Supervision &amp; QA/QC</h3><p>Construction inspection, quality management, technical compliance and site documentation.</p></div>
+      <div class="item"><h3>Road Asset Management</h3><p>Infrastructure condition assessment, maintenance planning and asset management systems.</p></div>
+      <div class="item"><h3>Claims &amp; Risk Management</h3><p>Project risk identification, claims documentation and contractual risk management.</p></div>
+      <div class="item"><h3>Health, Safety &amp; Environment</h3><p>Practical approaches to construction health, safety and environmental management.</p></div>
+      <div class="item"><h3>AI for Construction Professionals</h3><p>Practical applications of AI and digital tools in engineering and construction workflows.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec ivory">
+  <div class="wrap">
+    <div class="split">
+      <div><span class="eyebrow">Delivery</span><h2>Delivery formats</h2></div>
+      <ul class="creds">
+        <li>In-house corporate training.</li>
+        <li>Public professional workshops.</li>
+        <li>Online and blended programmes.</li>
+        <li>On-site technical mentoring.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="cta navy">
+  <div class="wrap">
+    <h2>Discuss a training programme for your team.</h2>
+    <div class="btns"><a href="contact.html" class="btn light">Discuss a Training Programme</a></div>
+  </div>
+</section>
+
+=== insights
+title: Insights | Anchor Point Engineers & Consultants
+desc: Technical notes and perspectives on infrastructure delivery, project management and asset management from Anchor Point Engineers and Consultants.
+nav: insights
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Insights</span>
+    <h1>Insights</h1>
+    <!-- NO CONTENT SUPPLIED. The brief lists Insights in the navigation but provides no articles or page copy.
+         The single sentence below is a neutral holding line, not approved copy. Supply articles, or remove
+         "insights" from NAV in build.py until they exist. -->
+    <p class="lead">Technical notes and perspectives from our team will be published here.</p>
+    <div class="btns"><a href="services.html" class="btn line">Explore Our Services</a><a href="projects.html" class="more" style="align-self:center">Projects &amp; Experience</a></div>
+  </div>
+</section>
+
+=== faq
+title: Frequently Asked Questions | Anchor Point Engineers & Consultants
+desc: Answers to common questions about Anchor Point's engineering, project management and infrastructure advisory services, how we work and how to contact our team.
+nav: contact
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">FAQ</span>
+    <h1>Frequently asked questions.</h1>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="faq">
+      <details open><summary>What types of projects does Anchor Point work on?</summary><p>Anchor Point provides professional engineering, project management and infrastructure advisory services across relevant road, building and civil infrastructure assignments. The scope of each engagement is determined by the client&rsquo;s requirements and the technical capabilities required.</p></details>
+      <details><summary>Which organizations do you work with?</summary><p>We work with public institutions, government agencies, private developers, contractors, development partners and other organizations involved in infrastructure development and management.</p></details>
+      <details><summary>Can Anchor Point provide independent construction supervision?</summary><p>Yes. We offer construction supervision and technical oversight services within our qualified areas of practice, supporting clients in monitoring implementation against approved designs, specifications and contractual requirements.</p></details>
+      <details><summary>Can you join a project that is already under construction?</summary><p>Yes. Subject to the project requirements, we can provide project review, technical assessment, monitoring, construction oversight and advisory support for ongoing assignments.</p></details>
+      <details><summary>What is your approach to project management?</summary><p>Our approach combines structured planning, continuous monitoring, coordination and proactive risk management to support effective project implementation and informed decision-making.</p></details>
+      <details><summary>How does Anchor Point use AI and digital technology?</summary><p>We integrate modern digital tools and AI-assisted analysis into relevant engineering and project management workflows to improve document review, project information analysis, monitoring and reporting. Professional engineers remain responsible for the review and interpretation of relevant outputs.</p></details>
+      <details><summary>How do you protect confidential project information?</summary><p>We treat client project information as confidential and handle it in accordance with applicable contractual obligations and our information-management procedures. Specific data handling arrangements can be agreed as part of an engagement.</p></details>
+      <details><summary>Can you provide a proposal for a project?</summary><p>Yes. Contact us with an outline of your project, location, scope and requirements. Our team can review the information and determine the appropriate next steps.</p></details>
+      <details><summary>Where does Anchor Point operate?</summary><p>Anchor Point is based in Addis Ababa, Ethiopia, and serves clients across Ethiopia, subject to the scope and requirements of each assignment.</p></details>
+      <details><summary>How can we contact your team?</summary><p>You can reach us through the contact details on our website or submit a project inquiry through our online contact form.</p></details>
+    </div>
+    <div class="btns"><a href="contact.html" class="btn solid">Discuss a Project</a></div>
+  </div>
+</section>
+
+=== contact
+title: Contact Anchor Point | Engineering Consultancy Addis Ababa
+desc: Contact Anchor Point Engineers and Consultants in Bole, Addis Ababa, to discuss an infrastructure project, technical consultancy, an ongoing assignment or professional training.
+nav: contact
+
+<section class="phero">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>Let&rsquo;s discuss your project.</h1>
+    <p class="lead">Every successful engagement begins with a clear understanding of the client&rsquo;s objectives and requirements.</p>
+    <p class="lead">Whether you are planning a new infrastructure project, seeking technical consultancy, managing an ongoing assignment or exploring professional training, we welcome the opportunity to understand how we can support you.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="contact">
+      <div class="cinfo">
+        <h2>Anchor Point Engineers and Consultants</h2>
+        <dl>
+          <div><dt>Office</dt><dd>Bole, Addis Ababa, Ethiopia.</dd></div>
+          <div><dt>Telephone</dt><dd><a href="tel:+251911257592">+251 911 25 75 92</a><br><a href="tel:+251969151555">+251 969 15 15 55</a></dd></div>
+          {{email}}
+          {{telegram_row}}
+          <div><dt>Office hours</dt><dd>Monday&ndash;Friday<br>8:00 AM&ndash;5:00 PM EAT.</dd></div>
+        </dl>
+        <div class="btns"><a href="faq.html" class="more">Frequently asked questions</a></div>
+      </div>
+      <!-- Contact form. With TELEGRAM_USERNAME set (build.py) it opens Telegram with the inquiry pre-written and the
+           visitor presses Send; nothing is stored by the website. With FORM_ENDPOINT set it posts to that backend instead.
+           With neither, it does not send and says so. A privacy policy page is still required. -->
+      <form class="inq" id="inquiry" data-endpoint="{{endpoint}}" data-telegram="{{telegram}}" novalidate>
+        <div class="f2">
+          <div class="fg"><label for="f-name">Full Name <i>*</i></label><input id="f-name" name="name" type="text" autocomplete="name" required><span class="err">Please enter your full name.</span></div>
+          <div class="fg"><label for="f-org">Organization</label><input id="f-org" name="organization" type="text" autocomplete="organization"></div>
+        </div>
+        <div class="f2">
+          <div class="fg"><label for="f-email">Work Email <i>*</i></label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err">Please enter a valid email address.</span></div>
+          <div class="fg"><label for="f-tel">Telephone</label><input id="f-tel" name="telephone" type="tel" autocomplete="tel"></div>
+        </div>
+        <div class="f2">
+          <div class="fg"><label for="f-svc">Service Required <i>*</i></label>
+            <select id="f-svc" name="service" required>
+              <option value="">Select a service</option>
+              <option>Engineering &amp; Technical Consultancy</option>
+              <option>Project &amp; Construction Management</option>
+              <option>Construction Supervision</option>
+              <option>Infrastructure &amp; Asset Management</option>
+              <option>Contract Administration &amp; Advisory</option>
+              <option>Training &amp; Capacity Building</option>
+              <option>Technology &amp; Digital Solutions</option>
+              <option>Other</option>
+            </select><span class="err">Please select a service.</span></div>
+          <div class="fg"><label for="f-loc">Project Location</label><input id="f-loc" name="location" type="text"></div>
+        </div>
+        <div class="fg"><label for="f-msg">Project Description <i>*</i></label><textarea id="f-msg" name="description" required placeholder="Please provide a brief description of your project, its location and the type of support you require."></textarea><span class="err">Please describe your project.</span></div>
+        <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <p class="fnote">The information you provide will be used only to respond to your inquiry.</p>
+        <button type="submit" class="btn solid" id="fsub">{{submit_label}}</button>
+        <div class="fmsg" id="fmsg" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
