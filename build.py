@@ -167,6 +167,20 @@ AP_LOGO_W = AP_LOGO.replace(MARK, MARK_LIGHT)
 DUO = f'<div class="duo">{AP_LOGO_W}<i aria-hidden="true">&times;</i>{NP_LINK_W}</div>'
 
 
+# From the firm's own earlier website. VERIFY against certificates and ERA records before relying on them.
+RADIAL = """<div class="feature">
+  <div class="feature-n"><b>ETB 40B</b></div>
+  <div><h3>Addis Ababa radial road projects.</h3><p>Coordinated during the founder&rsquo;s service at the Ethiopian Roads Administration. Combined value: ETB 40 billion.</p></div>
+</div>"""
+
+INTL = """<div class="g4 intl">
+  <div class="card"><span class="eyebrow">United Kingdom</span><h3>London</h3><p>Performance-Based Contracting Systems</p></div>
+  <div class="card"><span class="eyebrow">Japan</span><h3>Hiroshima</h3><p>Road Maintenance, Knowledge Co-Creation Program</p><small>JICA &amp; Hiroshima International Center &middot; 2022</small></div>
+  <div class="card"><span class="eyebrow">China</span><h3>Beijing</h3><p>Digital Transformation of Infrastructure Operation &amp; Maintenance</p><small>Ministry of Commerce of China &middot; 2023</small></div>
+  <div class="card"><span class="eyebrow">United Arab Emirates</span><h3>Dubai</h3><p>Infrastructure Asset Management &amp; ISO 55000</p><small>ESAMI &middot; 2025</small></div>
+</div>"""
+
+
 def money(m):
     return f"ETB {m / 1000:.2f} billion" if m >= 1000 else f"ETB {m:.1f} million"
 
@@ -237,6 +251,7 @@ def expand(body):
     body = body.replace("{{form}}", form()).replace("{{clist}}", contact_list())
     body = body.replace("{{road}}", ROAD).replace("{{net}}", NET).replace("{{imagine}}", IMAGINE)
     body = body.replace("{{triad}}", TRIAD).replace("{{duo}}", DUO)
+    body = body.replace("{{radial}}", RADIAL).replace("{{intl}}", INTL)
     body = body.replace("{{nplogo}}", NP_LOGO)
     portrait = (f'<img class="portrait" src="{PORTRAIT}" alt="Eng. Biniyam Regassa Merga, Founder and Chief Executive Officer" loading="lazy">'
                 if (ROOT / PORTRAIT).exists() else '<span class="portrait mono" aria-hidden="true">BR</span>')
