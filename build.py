@@ -10,8 +10,7 @@ The shared header, footer, <head>, icons, inquiry form and diagrams are defined 
 Tokens available in page bodies:
     {{i:name}}            line icon (see ICONS)
     {{road}}              animated hero road
-    {{partner}}           Anchor Point + North Point AI diagram
-    {{lockup}}            the two logos side by side
+    {{net}} {{imagine}} {{triad}} {{duo}}   the AI section: network visual, vision tiles, closing line, two logos
     {{projects:6|all}}    contract bar chart
     {{cta}} / {{cta:Heading text}}   closing section with the inquiry form
     {{form}} {{clist}}    the inquiry form / the contact details list on their own
@@ -97,30 +96,62 @@ MARK_LIGHT = MARK.replace('stroke="#14283F"', 'stroke="#FFFFFF"')
 NP_LOGO = '<img src="assets/northpoint-ai-logo.webp" alt="North Point AI" width="760" height="143">'
 
 # Hero road animation: flowing dashed centre line, two travelling dots, rotating ring around the 15+ Years badge.
-ROAD = ('<svg class="road" viewBox="0 0 760 640" preserveAspectRatio="xMaxYMax meet" fill="none" aria-hidden="true">'
+ROAD = ('<svg class="road" viewBox="0 0 760 500" fill="none" aria-hidden="true">'
         '<defs><linearGradient id="rEdge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14283F" stop-opacity="0"/>'
-        '<stop offset="1" stop-color="#14283F" stop-opacity=".42"/></linearGradient>'
+        '<stop offset="1" stop-color="#14283F" stop-opacity=".34"/></linearGradient>'
         '<linearGradient id="rFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14283F" stop-opacity="0"/>'
-        '<stop offset="1" stop-color="#14283F" stop-opacity=".075"/></linearGradient>'
+        '<stop offset="1" stop-color="#14283F" stop-opacity=".07"/></linearGradient>'
         '<linearGradient id="rCore" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B89A68"/><stop offset="1" stop-color="#DCC295"/></linearGradient>'
-        '<radialGradient id="rGlow"><stop offset="0" stop-color="#B89A68" stop-opacity=".3"/><stop offset="1" stop-color="#B89A68" stop-opacity="0"/></radialGradient>'
+        '<radialGradient id="rGlow"><stop offset="0" stop-color="#B89A68" stop-opacity=".26"/><stop offset="1" stop-color="#B89A68" stop-opacity="0"/></radialGradient>'
         '<path id="circ" d="M-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/></defs>'
-        '<circle cx="560" cy="86" r="220" fill="url(#rGlow)"/>'
-        '<g transform="translate(0,120)">'
-        '<path d="M520 0C470 160 240 260 60 520L420 520C470 300 580 170 600 0Z" fill="url(#rFill)"/>'
-        '<path d="M520 0C470 160 240 260 60 520" stroke="url(#rEdge)" stroke-width="2"/>'
-        '<path d="M600 0C580 170 470 300 420 520" stroke="url(#rEdge)" stroke-width="2"/>'
-        '<path class="dash" d="M560 0C525 165 355 280 240 520" stroke="#B89A68" stroke-width="3" stroke-dasharray="14 16"/>'
-        '<circle class="car" r="6" fill="#14283F"/><circle class="car c2" r="6" fill="#14283F"/></g>'
-        '<g class="badge" transform="translate(560,86)">'
+        '<circle cx="380" cy="96" r="230" fill="url(#rGlow)"/>'
+        '<path d="M366 132C352 300 250 420 30 580L730 580C510 420 408 300 394 132Z" fill="url(#rFill)"/>'
+        '<path d="M366 132C352 300 250 420 30 580" stroke="url(#rEdge)" stroke-width="1.6"/>'
+        '<path d="M394 132C408 300 510 420 730 580" stroke="url(#rEdge)" stroke-width="1.6"/>'
+        '<path class="dash" d="M380 132L380 580" stroke="#B89A68" stroke-width="3" stroke-dasharray="14 16"/>'
+        '<circle class="car" r="6" fill="#14283F"/><circle class="car c2" r="6" fill="#14283F"/>'
+        '<g class="badge" transform="translate(380,96)">'
         '<g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>'
         '<text class="ring"><textPath href="#circ">ROADS &#8226; BUILDINGS &#8226; STRUCTURES &#8226; </textPath></text></g>'
         '<circle r="40" fill="url(#rCore)"/>'
         '<text class="yrs" y="4" font-size="27">15+</text><text class="yrs" y="20" font-size="9" letter-spacing="1.4">YEARS</text></g></svg>')
 
 
+def network():
+    """AI visual: a network of points that lights up, with a north star above it."""
+    n = {"H": (70, 150), "A": (170, 262), "B": (305, 158), "C": (410, 276), "D": (500, 186), "E": (598, 292),
+         "F": (700, 164), "G": (838, 250), "I": (935, 132), "N": (500, 58)}
+    links = ["HB", "AB", "BD", "BC", "CD", "DN", "DF", "CE", "EF", "FG", "GI", "FI", "EG", "AC"]
+    d = lambda k: f"M{n[k[0]][0]} {n[k[0]][1]}L{n[k[1]][0]} {n[k[1]][1]}"
+    base = "".join(f'<path d="{d(k)}" stroke="#fff" stroke-opacity=".1"/>' for k in links)
+    flow = "".join(f'<path class="flow" d="{d(k)}" stroke="url(#nG)" stroke-width="1.6"/>' for k in links)
+    nodes = "".join(f'<circle class="node" cx="{x}" cy="{y}" r="4.5" fill="url(#nG)"/>' for k, (x, y) in n.items() if k != "N")
+    routes = ["M70 150L305 158L500 186L500 58", "M170 262L410 276L598 292L838 250L935 132", "M935 132L700 164L500 186L410 276"]
+    movers = "".join(f'<circle class="mover" r="3.4" fill="#fff" filter="url(#nB)"><animateMotion dur="{6 + i * 2}s" repeatCount="indefinite" path="{r}"/></circle>'
+                     for i, r in enumerate(routes))
+    star = ('<g transform="translate(500,58)"><circle r="46" fill="url(#nS)"/>'
+            '<path class="star" d="M0-24C2.500-8 8-2.500 24 0 8 2.500 2.500 8 0 24-2.500 8-8 2.500-24 0-8-2.500-2.500-8 0-24Z" fill="#fff"/></g>')
+    return ('<svg class="net" viewBox="0 0 1000 330" fill="none" aria-hidden="true"><defs>'
+            '<linearGradient id="nG" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5EE0D8"/><stop offset=".5" stop-color="#8E7CFF"/><stop offset="1" stop-color="#F2C46D"/></linearGradient>'
+            '<radialGradient id="nS"><stop offset="0" stop-color="#8E7CFF" stop-opacity=".55"/><stop offset="1" stop-color="#8E7CFF" stop-opacity="0"/></radialGradient>'
+            '<filter id="nB" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2.200"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
+            + base + flow + nodes + movers + star + "</svg>")
+
+
+NET = network().replace("2.500", "2.5").replace("2.200", "2.2")
+
+IMAGINE = """<div class="imagine">
+  <div class="im"><small class="spark">Imagine</small><h3>A road that reports its own condition.</h3><p>Every kilometre understood continuously, so maintenance happens before the damage does.</p></div>
+  <div class="im"><small class="spark">Imagine</small><h3>A delay you can see months before it arrives.</h3><p>Schedules, weather, supply and site records read together, pointing to what will slip next.</p></div>
+  <div class="im"><small class="spark">Imagine</small><h3>Ten thousand pages, read before the first meeting.</h3><p>Every contract, drawing and letter understood, with every conflict already found.</p></div>
+  <div class="im"><small class="spark">Imagine</small><h3>Ask your project anything. Get an answer.</h3><p>The whole history of a project, available to the people deciding its future.</p></div>
+</div>"""
+
+TRIAD = '<p class="triad"><span>See further.</span><span>Decide sooner.</span><span>Build with confidence.</span></p>'
+
+
 def icon(name):
-    return (f'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" '
+    return (f'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" '
             f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{ICONS[name]}"/></svg>')
 
 
@@ -129,31 +160,11 @@ def tick(text):
 
 
 AP_LOGO = f'<span class="logo">{MARK}<span><b>Anchor Point</b><span>Engineers &amp; Consultants</span></span></span>'
-NP_LINK = f'<a href="https://northpoint-ai.com" target="_blank" rel="noopener" aria-label="North Point AI website">{NP_LOGO}</a>'
+NP_LINK_W = ('<a href="https://northpoint-ai.com" target="_blank" rel="noopener" aria-label="North Point AI website">'
+             '<img src="assets/northpoint-ai-logo-white.webp" alt="North Point AI" width="760" height="143"></a>')
 
-PARTNER = f"""<div class="pair">
-  <div class="pair-c">
-    <div class="pair-h">{AP_LOGO}</div>
-    <p class="pair-k">Engineers</p>
-    <ul class="ticks">{tick("Engineering judgment and experience")}{tick("Review and verification of results")}{tick("Responsibility for the engineering advice")}</ul>
-  </div>
-  <div class="pair-plus" aria-hidden="true">+</div>
-  <div class="pair-c">
-    <div class="pair-h">{NP_LINK}</div>
-    <p class="pair-k">AI and data technology</p>
-    <ul class="ticks">{tick("Document and data analysis")}{tick("Schedule and progress tracking")}{tick("Monitoring and reporting tools")}</ul>
-  </div>
-</div>
-<div class="pair-out">
-  <p>What clients get</p>
-  <ul>
-    <li>{icon("search")}<b>Clearer project information</b></li>
-    <li>{icon("alert")}<b>Earlier warning of risks</b></li>
-    <li>{icon("target")}<b>Better-informed decisions</b></li>
-  </ul>
-</div>"""
-
-LOCKUP = f'<div class="lockup">{AP_LOGO}<i aria-hidden="true">&times;</i>{NP_LINK}</div>'
+AP_LOGO_W = AP_LOGO.replace(MARK, MARK_LIGHT)
+DUO = f'<div class="duo">{AP_LOGO_W}<i aria-hidden="true">&times;</i>{NP_LINK_W}</div>'
 
 
 def money(m):
@@ -224,7 +235,8 @@ def expand(body):
     body = re.sub(r"\{\{cta:([^}]+)\}\}", lambda m: cta(m.group(1)), body)
     body = body.replace("{{cta}}", cta("Let&rsquo;s discuss your project."))
     body = body.replace("{{form}}", form()).replace("{{clist}}", contact_list())
-    body = body.replace("{{road}}", ROAD).replace("{{partner}}", PARTNER).replace("{{lockup}}", LOCKUP)
+    body = body.replace("{{road}}", ROAD).replace("{{net}}", NET).replace("{{imagine}}", IMAGINE)
+    body = body.replace("{{triad}}", TRIAD).replace("{{duo}}", DUO)
     body = body.replace("{{nplogo}}", NP_LOGO)
     portrait = (f'<img class="portrait" src="{PORTRAIT}" alt="Eng. Biniyam Regassa Merga, Founder and Chief Executive Officer" loading="lazy">'
                 if (ROOT / PORTRAIT).exists() else '<span class="portrait mono" aria-hidden="true">BR</span>')
@@ -296,9 +308,9 @@ def page(slug, meta, body):
   <div class="wrap">
     <div class="ftr-g">
       <div>
-        <a href="index.html" class="logo">{MARK_LIGHT}<span><b>Anchor Point</b><span>Engineers &amp; Consultants</span></span></a>
+        <a href="index.html" class="logo">{MARK}<span><b>Anchor Point</b><span>Engineers &amp; Consultants</span></span></a>
         <p>Engineering, project management and infrastructure advisory services.</p>
-        <a class="ftr-np" href="https://northpoint-ai.com" target="_blank" rel="noopener"><span>In partnership with</span><img src="assets/northpoint-ai-logo-white.webp" alt="North Point AI" width="760" height="143" loading="lazy"></a>
+        <a class="ftr-np" href="https://northpoint-ai.com" target="_blank" rel="noopener"><span>In partnership with</span><img src="assets/northpoint-ai-logo.webp" alt="North Point AI" width="760" height="143" loading="lazy"></a>
       </div>
       <div>
         <h4>Company</h4>

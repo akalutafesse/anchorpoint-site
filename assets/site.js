@@ -17,6 +17,17 @@
     });
   }
 
+  /* Entrance: blocks are visible by default; this only plays a one-shot rise as they scroll into view */
+  if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rise'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    var vh = window.innerHeight;
+    document.querySelectorAll('.head,.card,.im,.fstep,.stat,.profile,.triad,.bars li,.checks li,form.inq').forEach(function (el, i) {
+      if (el.getBoundingClientRect().top > vh * 0.92) { el.style.animationDelay = (i % 4) * 70 + 'ms'; io.observe(el); }
+    });
+  }
+
   /* Project inquiry form.
      With an endpoint: posts to the form-to-Telegram service; success is shown ONLY after it confirms (HTTP 2xx).
      With a Telegram username instead: opens Telegram with the inquiry written out for the visitor to send.

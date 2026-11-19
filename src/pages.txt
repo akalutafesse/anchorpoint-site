@@ -4,131 +4,85 @@ desc: Anchor Point provides engineering, project management, construction superv
 nav: index
 
 <section class="hero">
-  {{road}}
   <div class="wrap">
-    <div class="hero-in">
-      <a class="chip" href="technology.html"><span>In partnership with</span>{{nplogo}}</a>
-      <h1>Engineering expertise. Infrastructure that delivers.</h1>
-      <p class="lead">Engineering, project management and infrastructure advisory for roads, buildings and civil works in Ethiopia. Our engineers work with AI tools from our technology partner, North Point AI.</p>
-      <div class="btns">
-        <a href="#inquiry" class="btn solid">Discuss a Project</a>
-        <a href="services.html" class="btn line">Our Services</a>
-      </div>
-      <ul class="facts">
-        <li>{{i:pin}}Bole, Addis Ababa</li>
-        <li>{{i:shield}}Led by a practicing professional engineer</li>
-        <li>{{i:spark}}AI-assisted, reviewed by engineers</li>
-      </ul>
+    <h1><span>Engineering expertise.</span> <span>Infrastructure that delivers.</span></h1>
+    <p class="lead">Engineering, project management and infrastructure advisory for Ethiopia.</p>
+    <div class="btns">
+      <a href="#inquiry" class="btn solid">Discuss a Project</a>
+      <a href="services.html" class="more">Our services</a>
     </div>
   </div>
+  {{road}}
 </section>
 
 <!-- VERIFY all four figures; remove any that cannot be substantiated. -->
-<section class="sec" style="padding-top:0">
+<section class="sec ivory" style="padding-top:72px">
   <div class="wrap">
-    <div class="stats lift">
+    <div class="stats">
       <div class="stat"><b>15+</b><p>Years of engineering experience</p></div>
       <div class="stat"><b>ETB 17.52B</b><p>Contract value across selected assignments</p></div>
       <div class="stat"><b>187.9 km</b><p>Road length across featured contracts</p></div>
       <div class="stat"><b>50+</b><p>Projects and assignments in the founder&rsquo;s career</p></div>
     </div>
-    <p class="note">{{i:check}}<span>These figures reflect the professional experience of the firm&rsquo;s leadership. They are not Anchor Point&rsquo;s corporate revenue or company portfolio.</span></p>
+    <p class="note">Figures reflect the professional experience of the firm&rsquo;s leadership. They are not Anchor Point&rsquo;s corporate revenue or company portfolio.</p>
   </div>
 </section>
 
-<!-- VERIFY the exact nature of the North Point AI partnership. -->
-<section class="sec mist">
+<!-- The four "Imagine" tiles are a statement of ambition, not of services delivered today. VERIFY the partnership wording. -->
+<section class="sec ai">
   <div class="wrap">
-    <div class="head row">
-      <div>
-        <span class="eyebrow">Our Technology Partner</span>
-        <h2>Experienced engineers, working with AI.</h2>
-        <p class="lead">Anchor Point works in partnership with North Point AI. Their AI and data tools help our engineers review project information, spot risks early and track performance. Anchor Point remains responsible for the engineering advice.</p>
-      </div>
-      <a href="technology.html" class="more">How the partnership works</a>
-    </div>
-    {{partner}}
+    <span class="ai-tag spark">Anchor Point &times; North Point AI</span>
+    <h2 class="ai-h">Imagine infrastructure that <span class="spark">thinks.</span></h2>
+    <p class="lead">Engineering has always asked what can be built. Together with North Point AI, we are asking what can be known: before the first survey, before the first crack, before the first delay.</p>
+    {{net}}
+    {{imagine}}
+    {{triad}}
+    <p class="ai-now"><b>Where we are today.</b> AI already works alongside our engineers on documents, schedules and project data. Every result is checked by a qualified engineer before it becomes advice.</p>
+    <a href="technology.html" class="more">Explore the partnership</a>
   </div>
 </section>
 
 <section class="sec">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">What We Do</span>
-      <h2>Services for every stage of a project.</h2>
-      <p class="lead">We support clients from early planning, through construction, to long-term maintenance.</p>
+      <h2>Everything a project needs.</h2>
+      <p class="lead">From the first study to long-term maintenance.</p>
     </div>
-    <div class="g4">
-      <a class="card" href="services.html#engineering"><span class="ico">{{i:ruler}}</span><h3>Engineering &amp; Technical Consultancy</h3><p>Studies, design support and independent technical review.</p><span class="more">Learn more</span></a>
-      <a class="card" href="services.html#project-management"><span class="ico">{{i:clipboard}}</span><h3>Project &amp; Construction Management</h3><p>Planning, supervision and quality control during delivery.</p><span class="more">Learn more</span></a>
-      <a class="card" href="services.html#asset-management"><span class="ico">{{i:road}}</span><h3>Infrastructure &amp; Asset Management</h3><p>Condition assessment and maintenance planning for roads and other assets.</p><span class="more">Learn more</span></a>
-      <a class="card" href="services.html#contract-advisory"><span class="ico">{{i:doc}}</span><h3>Contract Advisory &amp; Training</h3><p>Contract administration, claims support, cost control and training.</p><span class="more">Learn more</span></a>
-    </div>
-  </div>
-</section>
-
-<!-- Only display client groups the company is prepared and qualified to serve. -->
-<section class="sec ivory">
-  <div class="wrap">
-    <div class="head row">
-      <div>
-        <span class="eyebrow">Who We Work With</span>
-        <h2>The organizations that build and manage infrastructure.</h2>
-      </div>
-      <a href="sectors.html" class="more">See all sectors</a>
-    </div>
-    <div class="g5">
-      <div class="card tile"><span class="ico">{{i:gov}}</span><div><h3>Government &amp; Public Institutions</h3></div></div>
-      <div class="card tile"><span class="ico">{{i:chart}}</span><div><h3>Developers &amp; Investors</h3></div></div>
-      <div class="card tile"><span class="ico">{{i:hardhat}}</span><div><h3>Contractors</h3></div></div>
-      <div class="card tile"><span class="ico">{{i:globe}}</span><div><h3>Development Partners</h3></div></div>
-      <div class="card tile"><span class="ico">{{i:tower}}</span><div><h3>Private &amp; Property Developers</h3></div></div>
+    <div class="g2">
+      <a class="card big" href="services.html#engineering"><span class="ico">{{i:ruler}}</span><h3>Engineering &amp; Technical Consultancy</h3><p>Studies, design support and independent technical review.</p><span class="more">Learn more</span></a>
+      <a class="card big" href="services.html#project-management"><span class="ico">{{i:clipboard}}</span><h3>Project &amp; Construction Management</h3><p>Planning, supervision and quality control during delivery.</p><span class="more">Learn more</span></a>
+      <a class="card big" href="services.html#asset-management"><span class="ico">{{i:road}}</span><h3>Infrastructure &amp; Asset Management</h3><p>Condition assessment and maintenance planning for roads and other assets.</p><span class="more">Learn more</span></a>
+      <a class="card big" href="services.html#contract-advisory"><span class="ico">{{i:doc}}</span><h3>Contract Advisory &amp; Training</h3><p>Contract administration, claims support, cost control and training.</p><span class="more">Learn more</span></a>
     </div>
   </div>
 </section>
 
 <!-- Historical assignments, not Anchor Point contracts. VERIFY against project records. -->
-<section class="sec">
-  <div class="wrap">
-    <div class="head row">
-      <div>
-        <span class="eyebrow">Selected Professional Experience</span>
-        <h2>Experience on major road contracts.</h2>
-        <p class="lead">Road construction contracts across Ethiopia from the founder&rsquo;s previous professional service.</p>
-      </div>
-      <a href="projects.html" class="more">See all ten contracts</a>
-    </div>
-    {{projects:5}}
-    <p class="note">{{i:check}}<span>These assignments were undertaken during the founder&rsquo;s previous professional service. They are not contracts executed by Anchor Point Engineers and Consultants.</span></p>
-  </div>
-</section>
-
 <section class="sec ivory">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Why Anchor Point</span>
-      <h2>Four reasons clients can rely on us.</h2>
+      <h2>Experience you can measure.</h2>
+      <p class="lead">Road construction contracts across Ethiopia, from the founder&rsquo;s previous professional service.</p>
     </div>
-    <div class="g4">
-      <div class="card"><span class="ico">{{i:road}}</span><h3>Practical experience</h3><p>Our advice comes from hands-on work on infrastructure projects.</p></div>
-      <div class="card"><span class="ico">{{i:shield}}</span><h3>Professional accountability</h3><p>Technical rigor, integrity and clear responsibility on every engagement.</p></div>
-      <div class="card"><span class="ico">{{i:layers}}</span><h3>The whole project in view</h3><p>We look at the technical, commercial and management sides together.</p></div>
-      <div class="card"><span class="ico">{{i:spark}}</span><h3>Technology-enabled</h3><p>Modern digital and AI tools give clearer project information.</p></div>
-    </div>
-    <div class="profile after">
+    {{projects:5}}
+    <p class="note">These assignments were undertaken during the founder&rsquo;s previous professional service. They are not contracts executed by Anchor Point Engineers and Consultants.</p>
+    <div class="btns"><a href="projects.html" class="more">See all ten contracts</a></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="profile">
       {{portrait}}
-      <div>
-        <span class="eyebrow" style="margin-bottom:6px">Leadership</span>
-        <h3>Eng. Biniyam Regassa Merga</h3>
-        <span class="role">Founder &amp; Chief Executive Officer</span>
-        <ul class="tags"><li>M.Sc. Civil Engineering</li><li>Practicing Professional Engineer</li><li>15+ years of experience</li></ul>
-      </div>
+      <h3>Eng. Biniyam Regassa Merga</h3>
+      <span class="role">Founder &amp; Chief Executive Officer</span>
+      <ul class="tags"><li>M.Sc. Civil Engineering</li><li>Practicing Professional Engineer</li></ul>
       <a href="leadership.html" class="more">Meet our leadership</a>
     </div>
   </div>
 </section>
 
-{{cta:Let&rsquo;s discuss your next project.}}
+{{cta:Let&rsquo;s talk about your project.}}
 
 === about
 title: About Anchor Point | Engineering Consultancy Ethiopia
@@ -138,29 +92,28 @@ nav: about
 <section class="phero">
   <div class="wrap">
     <span class="eyebrow">About Us</span>
-    <h1>About Anchor Point</h1>
-    <p class="lead">An Ethiopian engineering and infrastructure consultancy, committed to responsible infrastructure development.</p>
+    <h1>Built on experience. Looking ahead.</h1>
+    <p class="lead">An Ethiopian engineering and infrastructure consultancy.</p>
   </div>
 </section>
 
 <section class="sec">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Who We Are</span>
-      <h2>Engineers who understand how projects are really built.</h2>
+      <h2>Engineers who know how projects are really built.</h2>
       <p class="lead">Anchor Point Engineers and Consultants provides technical services, project management and infrastructure advisory.</p>
       <p class="lead">We work with public institutions, private developers, contractors and development partners. Our advice is technically sound, commercially informed and shaped by each client&rsquo;s needs.</p>
     </div>
     <div class="g2">
-      <div class="card big"><span class="ico">{{i:flag}}</span><span class="eyebrow">Our Mission</span><p class="quote">To provide dependable engineering and infrastructure advisory services that strengthen project delivery, improve infrastructure management and create lasting value for our clients and communities.</p></div>
-      <div class="card big"><span class="ico">{{i:compass}}</span><span class="eyebrow">Our Vision</span><p class="quote">To become a respected engineering and infrastructure consultancy, recognized for professional excellence, technical innovation and meaningful contributions to infrastructure development in Ethiopia and beyond.</p></div>
+      <div class="card big"><span class="eyebrow">Our mission</span><p class="quote">To provide dependable engineering and infrastructure advisory services that strengthen project delivery, improve infrastructure management and create lasting value for our clients and communities.</p></div>
+      <div class="card big"><span class="eyebrow">Our vision</span><p class="quote">To become a respected engineering and infrastructure consultancy, recognized for professional excellence, technical innovation and meaningful contributions to infrastructure development in Ethiopia and beyond.</p></div>
     </div>
   </div>
 </section>
 
 <section class="sec ivory">
   <div class="wrap">
-    <div class="head"><span class="eyebrow">Our Values</span><h2>What guides our work.</h2></div>
+    <div class="head"><h2>Five things we hold to.</h2></div>
     <div class="g5">
       <div class="card"><span class="ico">{{i:shield}}</span><h3>Integrity</h3><p>Honest, transparent work that respects our professional and contractual obligations.</p></div>
       <div class="card"><span class="ico">{{i:target}}</span><h3>Technical Excellence</h3><p>Sound engineering, careful analysis and professional standards.</p></div>
@@ -174,17 +127,16 @@ nav: about
 <section class="sec">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Our Approach</span>
-      <h2>Understand first. Stay disciplined throughout.</h2>
+      <h2>Understand first. Then deliver.</h2>
       <p class="lead">Every project is different, so we start by understanding yours.</p>
     </div>
-    <div class="flow">
+    <div class="flow-g">
       <div class="fstep"><b>Understand</b><p>Your needs, the project and what affects its success.</p></div>
       <div class="fstep"><b>Plan &amp; assess</b><p>Structured planning and technical assessment.</p></div>
       <div class="fstep"><b>Oversee</b><p>Professional oversight while the work is carried out.</p></div>
       <div class="fstep"><b>Monitor</b><p>Tracking performance and reporting clearly.</p></div>
     </div>
-    <div class="btns"><a href="leadership.html" class="btn line">Meet Our Leadership</a><a href="services.html" class="btn line">Our Services</a></div>
+    <div class="btns"><a href="leadership.html" class="more">Meet our leadership</a><a href="services.html" class="more">Our services</a></div>
   </div>
 </section>
 
@@ -198,21 +150,16 @@ nav: services
 <section class="phero">
   <div class="wrap">
     <span class="eyebrow">Services</span>
-    <h1>Engineering and advisory services for every stage of a project.</h1>
-    <p class="lead">From early planning and technical assessment, through construction, to long-term maintenance.</p>
-    <div class="btns">
-      <a href="#engineering" class="btn line">{{i:ruler}}Engineering</a>
-      <a href="#project-management" class="btn line">{{i:clipboard}}Project Management</a>
-      <a href="#asset-management" class="btn line">{{i:road}}Asset Management</a>
-      <a href="#contract-advisory" class="btn line">{{i:doc}}Contract Advisory</a>
-    </div>
+    <h1>Everything a project needs.</h1>
+    <p class="lead">From the first study, through construction, to long-term maintenance.</p>
+    <div class="btns"><a href="#engineering" class="more">Engineering</a><a href="#project-management" class="more">Delivery</a><a href="#asset-management" class="more">Maintenance</a><a href="#contract-advisory" class="more">Contracts</a></div>
   </div>
 </section>
 
 <section class="sec" id="engineering">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">01 &middot; Engineering</span>
+      <span class="eyebrow">Engineering</span>
       <h2>Engineering &amp; Technical Consultancy</h2>
       <p class="lead">Technical advice to help you plan, assess and design infrastructure projects on a sound footing.</p>
     </div>
@@ -228,7 +175,7 @@ nav: services
 <section class="sec ivory" id="project-management">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">02 &middot; Delivery</span>
+      <span class="eyebrow">Delivery</span>
       <h2>Project &amp; Construction Management</h2>
       <p class="lead">Keeping scope, time, cost, quality and risk visible and under control.</p>
     </div>
@@ -245,7 +192,7 @@ nav: services
 <section class="sec" id="asset-management">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">03 &middot; Maintenance</span>
+      <span class="eyebrow">Maintenance</span>
       <h2>Infrastructure &amp; Asset Management</h2>
       <p class="lead">Helping owners move from reacting to failures toward planned, evidence-based maintenance.</p>
     </div>
@@ -262,7 +209,7 @@ nav: services
 <section class="sec ivory" id="contract-advisory">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">04 &middot; Contracts &amp; People</span>
+      <span class="eyebrow">Contracts &amp; people</span>
       <h2>Contract Advisory &amp; Professional Development</h2>
       <p class="lead">Sound contract administration, cost control and capable project teams.</p>
     </div>
@@ -287,7 +234,7 @@ nav: services
 <section class="phero">
   <div class="wrap">
     <span class="eyebrow">Sectors</span>
-    <h1>Who we work with.</h1>
+    <h1>Built around the people who build.</h1>
     <p class="lead">Different organizations face different challenges. We shape our services around yours.</p>
   </div>
 </section>
@@ -303,7 +250,7 @@ nav: services
       <div class="card"><span class="ico">{{i:hardhat}}</span><h3>Contractors &amp; Construction</h3><p>Project management, technical review, contract administration and quality oversight.</p></div>
       <div class="card"><span class="ico">{{i:globe}}</span><h3>Development Programmes</h3><p>Technical and project support for infrastructure and development initiatives.</p></div>
     </div>
-    <div class="btns"><a href="services.html" class="btn line">Our Services</a><a href="projects.html" class="btn line">Projects &amp; Experience</a></div>
+    <div class="btns"><a href="services.html" class="more">Our services</a><a href="projects.html" class="more">Projects and experience</a></div>
   </div>
 </section>
 
@@ -317,7 +264,7 @@ nav: projects
 <section class="phero">
   <div class="wrap">
     <span class="eyebrow">Projects &amp; Professional Experience</span>
-    <h1>Experience built on real projects.</h1>
+    <h1>Experience you can measure.</h1>
     <p class="lead">Selected road contracts and professional work across Ethiopia that shape how Anchor Point&rsquo;s leadership works today.</p>
   </div>
 </section>
@@ -328,17 +275,17 @@ nav: projects
 <section class="sec">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Selected Professional Experience</span>
-      <h2>Ten road construction contracts.</h2>
+      <span class="eyebrow">Selected professional experience</span>
+      <h2>Ten road contracts.</h2>
       <p class="lead">Undertaken during the founder&rsquo;s previous professional service. They are not contracts executed by Anchor Point Engineers and Consultants.</p>
     </div>
-    <div class="stats three" style="margin-bottom:24px">
+    <div class="stats three">
       <div class="stat"><b>10</b><p>Road construction contracts</p></div>
       <div class="stat"><b>187.9 km</b><p>Combined road length</p></div>
       <div class="stat"><b>ETB 17.52B</b><p>Combined contract value</p></div>
     </div>
     {{projects:all}}
-    <p class="note">{{i:check}}<span>These figures reflect the professional experience of the firm&rsquo;s leadership. They are not Anchor Point&rsquo;s corporate revenue or company portfolio.</span></p>
+    <p class="note">These figures reflect the professional experience of the firm&rsquo;s leadership. They are not Anchor Point&rsquo;s corporate revenue or company portfolio.</p>
   </div>
 </section>
 
@@ -346,12 +293,11 @@ nav: projects
 <section class="sec ivory">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Featured Capability</span>
-      <h2>Performance-based road maintenance.</h2>
+      <h2>Pay for the road, not the repair.</h2>
       <p class="lead">Performance-based contracts link payment to the measured condition of the road, not only to the quantity of work done.</p>
       <p class="lead">Professional experience in this area includes involvement in preparing an Output and Performance-based Road Contract (OPRC) proposal for the Ethiopian Roads Administration.</p>
     </div>
-    <div class="flow five">
+    <div class="flow-g five">
       <div class="fstep"><b>Set service standards</b><p>Measurable standards for the road.</p></div>
       <div class="fstep"><b>Define duties</b><p>Clear maintenance obligations.</p></div>
       <div class="fstep"><b>Monitor condition</b><p>Regular condition monitoring.</p></div>
@@ -364,43 +310,36 @@ nav: projects
 {{cta}}
 
 === technology
-title: AI Partnership & Engineering Technology | Anchor Point
-desc: How Anchor Point combines professional engineering with AI-assisted analysis through its partnership with North Point AI, with engineers responsible for review and verification.
+title: AI Partnership | Anchor Point × North Point AI
+desc: Anchor Point and North Point AI are bringing artificial intelligence to infrastructure in Ethiopia, with qualified engineers responsible for every piece of advice.
 nav: technology
 
-<section class="phero">
+<!-- The "Imagine" tiles are a statement of ambition, not of services delivered today. VERIFY the exact nature of the partnership. -->
+<section class="sec ai top">
   <div class="wrap">
-    <span class="eyebrow">Technology &amp; AI Partnership</span>
-    <h1>Engineering expertise, supported by AI.</h1>
-    <p class="lead">Infrastructure projects produce a great deal of information. We use digital tools and AI-assisted analysis to help our engineers review it and identify risks early.</p>
-    <div class="after">{{lockup}}</div>
-  </div>
-</section>
-
-<!-- VERIFY the exact nature of the North Point AI partnership before relying on this page. -->
-<section class="sec mist">
-  <div class="wrap">
-    <div class="head">
-      <span class="eyebrow">The Partnership</span>
-      <h2>Anchor Point and North Point AI.</h2>
-      <p class="lead">North Point AI is a technology company working in artificial intelligence, data systems and digital solutions. Anchor Point remains responsible for its engineering consultancy services. North Point AI contributes technology within the scope of the partnership.</p>
-    </div>
-    {{partner}}
-    <div class="btns"><a href="https://northpoint-ai.com" target="_blank" rel="noopener" class="btn line">Visit North Point AI</a></div>
+    {{duo}}
+    <h1 class="ai-h">Imagine infrastructure that <span class="spark">thinks.</span></h1>
+    <p class="lead">Engineering has always asked what can be built. Together with North Point AI, we are asking what can be known: before the first survey, before the first crack, before the first delay.</p>
+    {{net}}
+    {{imagine}}
+    {{triad}}
   </div>
 </section>
 
 <section class="sec">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">How It Works</span>
-      <h2>From project data to a decision.</h2>
+      <span class="eyebrow">Today</span>
+      <h2>Already at work beside our engineers.</h2>
     </div>
-    <div class="flow">
-      <div class="fstep"><b>Project information</b><p>Contracts, drawings, schedules and records.</p></div>
-      <div class="fstep"><b>Digital analysis</b><p>AI-assisted tools organize and analyze it.</p></div>
-      <div class="fstep"><b>Engineering review</b><p>Qualified engineers check and interpret the results.</p></div>
-      <div class="fstep"><b>Informed decisions</b><p>Clear advice for the client.</p></div>
+    <div class="g3">
+      <div class="card big"><span class="ico">{{i:search}}</span><h3>It reads everything.</h3><p>Contracts, drawings and submissions, checked for what does not add up.</p></div>
+      <div class="card big"><span class="ico">{{i:calendar}}</span><h3>It watches the schedule.</h3><p>Emerging delays surfaced while there is still time to act.</p></div>
+      <div class="card big"><span class="ico">{{i:calc}}</span><h3>It checks the numbers.</h3><p>Quantities and payment documents, reviewed and then verified by engineers.</p></div>
+    </div>
+    <div class="g2 after">
+      <div class="card big"><span class="ico">{{i:pulse}}</span><h3>It knows the asset.</h3><p>Condition data turned into clear maintenance priorities.</p></div>
+      <div class="card big"><span class="ico">{{i:report}}</span><h3>It writes the first draft.</h3><p>Reports and management summaries, built from structured project information.</p></div>
     </div>
   </div>
 </section>
@@ -408,20 +347,17 @@ nav: technology
 <section class="sec ivory">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Where Technology Helps</span>
-      <h2>Five areas of support.</h2>
+      <h2>Engineers decide. Always.</h2>
+      <p class="lead">Technology supports our analysis. It does not replace professional engineering responsibility. Qualified professionals review and verify results before they are used in advice or project decisions.</p>
     </div>
-    <div class="g5">
-      <div class="card"><span class="ico">{{i:search}}</span><h3>Document Review</h3><p>Reviewing contracts, drawings and submissions and flagging possible inconsistencies.</p></div>
-      <div class="card"><span class="ico">{{i:calendar}}</span><h3>Schedule Analysis</h3><p>Assessing schedules and spotting emerging delays.</p></div>
-      <div class="card"><span class="ico">{{i:calc}}</span><h3>Quantity &amp; Payment Review</h3><p>Checking quantities and payment documents, subject to professional verification.</p></div>
-      <div class="card"><span class="ico">{{i:pulse}}</span><h3>Infrastructure Monitoring</h3><p>Organizing condition data and maintenance priorities.</p></div>
-      <div class="card"><span class="ico">{{i:report}}</span><h3>Reporting</h3><p>Reports and management summaries from structured project information.</p></div>
+    <div class="flow-g">
+      <div class="fstep"><b>Project information</b><p>Contracts, drawings, schedules and records.</p></div>
+      <div class="fstep"><b>AI analysis</b><p>Organized, compared and questioned at speed.</p></div>
+      <div class="fstep"><b>Engineering review</b><p>Qualified engineers check and interpret.</p></div>
+      <div class="fstep"><b>Your decision</b><p>Clear advice you can act on.</p></div>
     </div>
-    <div class="card big after" style="flex-direction:row;gap:22px;align-items:flex-start">
-      <span class="ico" style="margin-bottom:0">{{i:shield}}</span>
-      <div><span class="eyebrow">Engineering Accountability</span><p class="quote">Technology supports our analysis. It does not replace professional engineering responsibility. Qualified professionals review and verify results before they are used in advice or project decisions.</p></div>
-    </div>
+    <p class="note">North Point AI is a technology company working in artificial intelligence, data systems and digital solutions. Anchor Point remains responsible for its engineering consultancy services; North Point AI contributes technology within the scope of the partnership.</p>
+    <div class="btns"><a href="https://northpoint-ai.com" target="_blank" rel="noopener" class="more">Visit North Point AI</a></div>
   </div>
 </section>
 
@@ -434,8 +370,7 @@ nav: about
 
 <section class="phero">
   <div class="wrap">
-    <span class="eyebrow">Leadership</span>
-    <h1>Leadership grounded in experience.</h1>
+    <h1>Led by experience.</h1>
   </div>
 </section>
 
@@ -443,20 +378,18 @@ nav: about
      VERIFY biography, exact titles and appointment dates. -->
 <section class="sec">
   <div class="wrap">
-    <div class="profile tall">
-      <div>
-        {{portrait}}
-        <h2>Eng. Biniyam Regassa Merga</h2>
-        <span class="role">Founder &amp; Chief Executive Officer</span>
-        <ul class="tags"><li>M.Sc. Civil Engineering</li><li>Practicing Professional Engineer</li></ul>
-        <div class="btns">{{cv}}<a href="#inquiry" class="btn solid">Discuss a Project</a></div>
-      </div>
-      <div class="bio">
+    <div class="profile">
+      {{portrait}}
+      <h2>Eng. Biniyam Regassa Merga</h2>
+      <span class="role">Founder &amp; Chief Executive Officer</span>
+      <ul class="tags"><li>M.Sc. Civil Engineering</li><li>Practicing Professional Engineer</li></ul>
+      <div class="btns">{{cv}}<a href="#inquiry" class="btn solid">Discuss a Project</a></div>
+    </div>
+    <div class="bio">
         <p class="lead">Eng. Biniyam Regassa Merga is an infrastructure and engineering professional with more than 15 years of experience in road development, project management and road asset management in Ethiopia.</p>
         <p>During his career at the Ethiopian Roads Administration, he progressed from Project Engineer to senior responsibilities within Road Asset Management, including serving in an acting road maintenance director capacity.</p>
         <p>His experience includes major road construction programmes, maintenance systems, performance-based road maintenance, monitoring frameworks and the use of digital technology in infrastructure management.</p>
         <p>He brings this public-sector experience and technical knowledge to Anchor Point.</p>
-      </div>
     </div>
   </div>
 </section>
@@ -464,7 +397,7 @@ nav: about
 <!-- Display subject to documentary verification. -->
 <section class="sec ivory">
   <div class="wrap">
-    <div class="head"><span class="eyebrow">Qualifications</span><h2>Professional credentials.</h2></div>
+    <div class="head"><h2>Credentials.</h2></div>
     <ul class="checks">
       <li>{{i:shield}}<span>Practicing Professional Engineer<small>Registration PPECM/6776</small></span></li>
       <li>{{i:cap}}<span>M.Sc. Civil Engineering<small>Addis Ababa University, 2015</small></span></li>
@@ -480,13 +413,13 @@ nav: about
 <!-- Use the exact appointment dates and titles after verification. -->
 <section class="sec">
   <div class="wrap">
-    <div class="head"><span class="eyebrow">Career</span><h2>Career path.</h2></div>
-    <div class="flow three">
+    <div class="head"><h2>The path here.</h2></div>
+    <div class="flow-g three">
       <div class="fstep"><b>2012 &middot; Project Engineer</b><p>Ethiopian Roads Administration.</p></div>
       <div class="fstep"><b>Senior roles in Road Asset Management</b><p>Including acting road maintenance director responsibilities.</p></div>
       <div class="fstep"><b>2026 &middot; Founder &amp; CEO</b><p>Anchor Point Engineers and Consultants.</p></div>
     </div>
-    <div class="btns"><a href="projects.html" class="btn line">Projects &amp; Professional Experience</a></div>
+    <div class="btns"><a href="projects.html" class="more">Projects and professional experience</a></div>
   </div>
 </section>
 
@@ -500,15 +433,15 @@ nav: services
 <section class="phero">
   <div class="wrap">
     <span class="eyebrow">Professional Training</span>
-    <h1>Practical training for project teams.</h1>
-    <p class="lead">Good infrastructure depends on skilled people. Our training is practical, industry-focused and built for working engineers.</p>
+    <h1>Stronger teams build better roads.</h1>
+    <p class="lead">Practical, industry-focused training for working engineers.</p>
   </div>
 </section>
 
 <!-- Only advertise courses whose curriculum, trainers and delivery arrangements are ready. Remove any that are not. -->
 <section class="sec">
   <div class="wrap">
-    <div class="head"><span class="eyebrow">Programmes</span><h2>Nine training programmes.</h2></div>
+    <div class="head"><h2>Nine programmes.</h2></div>
     <div class="g3">
       <div class="card"><span class="ico">{{i:clipboard}}</span><h3>Project Management Essentials</h3><p>Planning, coordination, implementation and monitoring.</p></div>
       <div class="card"><span class="ico">{{i:calendar}}</span><h3>Planning &amp; Scheduling</h3><p>Scheduling, critical-path analysis and progress reporting.</p></div>
@@ -525,7 +458,7 @@ nav: services
 
 <section class="sec ivory">
   <div class="wrap">
-    <div class="head"><span class="eyebrow">Delivery</span><h2>Four ways to learn.</h2></div>
+    <div class="head"><h2>Four ways to learn.</h2></div>
     <div class="g4">
       <div class="card"><span class="ico">{{i:tower}}</span><h3>In-house corporate training</h3></div>
       <div class="card"><span class="ico">{{i:users}}</span><h3>Public professional workshops</h3></div>
@@ -544,8 +477,7 @@ nav: contact
 
 <section class="phero">
   <div class="wrap">
-    <span class="eyebrow">FAQ</span>
-    <h1>Frequently asked questions.</h1>
+    <h1>Questions, answered.</h1>
   </div>
 </section>
 
@@ -577,8 +509,8 @@ nav: contact
 <section class="phero">
   <div class="wrap">
     <span class="eyebrow">Contact</span>
-    <h1>Let&rsquo;s discuss your project.</h1>
-    <p class="lead">A new project, an ongoing one, or a training need: tell us in a few lines and we will take it from there.</p>
+    <h1>Let&rsquo;s talk.</h1>
+    <p class="lead">A new project, an ongoing one, or a training need. Tell us in a few lines.</p>
   </div>
 </section>
 
@@ -587,12 +519,12 @@ nav: contact
   <div class="wrap">
     <div class="cta-g">
       <div>
-        <span class="eyebrow">Reach Us Directly</span>
-        <h2>Anchor Point Engineers and Consultants</h2>
+        <h2>Reach us directly.</h2>
         {{clist}}
-        <div class="btns"><a href="faq.html" class="more">Frequently asked questions</a></div>
+        <div class="btns" style="justify-content:flex-start"><a href="faq.html" class="more">Frequently asked questions</a></div>
       </div>
       {{form}}
     </div>
   </div>
 </section>
+
