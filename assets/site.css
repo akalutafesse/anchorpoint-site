@@ -28,6 +28,11 @@ h4{font-size:13px;letter-spacing:0}
 .lead{font-size:clamp(18px,1.75vw,22px);line-height:1.5;color:var(--text);font-weight:500}
 .note{margin:28px auto 0;font-size:12.5px;line-height:1.55;color:#8A929C;max-width:640px;text-align:center}
 .note .i{display:none}
+.fine{margin:26px auto 0;font-size:11.5px;line-height:1.5;color:#8B939D;max-width:560px;text-align:center;font-weight:500}
+.fine::before{content:'* ';}
+.fine.plain::before{content:none}
+.ast{font-size:.5em;font-weight:500;color:#A0A7B0;vertical-align:super;line-height:0;margin-left:2px;letter-spacing:0}
+.stat p .ast,.feature p .ast{font-size:.8em;vertical-align:baseline;position:relative;top:-.3em}
 
 /* Buttons & links */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 26px;border-radius:999px;font:inherit;font-weight:600;font-size:16px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s,opacity .2s}

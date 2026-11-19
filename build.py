@@ -197,7 +197,7 @@ DUO = f'<div class="duo">{AP_LOGO_W}<i aria-hidden="true">&times;</i>{NP_LINK_W}
 # From the firm's own earlier website. VERIFY against certificates and ERA records before relying on them.
 RADIAL = """<div class="feature">
   <div class="feature-n"><b>ETB 40B</b></div>
-  <div><h3>Addis Ababa radial road projects.</h3><p>Coordinated during the founder&rsquo;s service at the Ethiopian Roads Administration. Combined value: ETB 40 billion.</p></div>
+  <div><h3>Addis Ababa radial road projects.</h3><p>Coordinated at the Ethiopian Roads Administration. Combined value: ETB 40 billion.<sup class="ast">*</sup></p></div>
 </div>"""
 
 INTL = """<div class="g4 intl">

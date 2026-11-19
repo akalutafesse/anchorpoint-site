@@ -20,11 +20,11 @@ nav: index
   <div class="wrap">
     <div class="stats">
       <div class="stat"><b>15+</b><p>Years of engineering experience</p></div>
-      <div class="stat"><b>ETB 40B</b><p>Addis Ababa radial road projects coordinated</p></div>
-      <div class="stat"><b>50+</b><p>Projects and assignments in the founder&rsquo;s career</p></div>
+      <div class="stat"><b>ETB 40B</b><p>Addis Ababa radial road projects coordinated<sup class="ast">*</sup></p></div>
+      <div class="stat"><b>50+</b><p>Projects and assignments in the founder&rsquo;s career<sup class="ast">*</sup></p></div>
       <div class="stat"><b>4</b><p>Countries of international training</p></div>
     </div>
-    <p class="note">Figures reflect the professional experience of the firm&rsquo;s leadership. They are not Anchor Point&rsquo;s corporate revenue or company portfolio.</p>
+    <p class="fine">Professional experience of the firm&rsquo;s leadership, not Anchor Point&rsquo;s corporate revenue or portfolio.</p>
   </div>
 </section>
 
@@ -61,12 +61,12 @@ nav: index
 <section class="sec ivory">
   <div class="wrap">
     <div class="head">
-      <h2>Experience you can measure.</h2>
-      <p class="lead">Major road programmes and contracts across Ethiopia, from the founder&rsquo;s previous professional service.</p>
+      <h2>Experience you can measure.<sup class="ast">*</sup></h2>
+      <p class="lead">Major road programmes and contracts across Ethiopia.</p>
     </div>
     {{radial}}
     {{projects:5}}
-    <p class="note">These assignments were undertaken during the founder&rsquo;s previous professional service. They are not contracts executed by Anchor Point Engineers and Consultants.</p>
+    <p class="fine">Undertaken during the founder&rsquo;s previous professional service, not contracts executed by Anchor Point Engineers and Consultants.</p>
     <div class="btns"><a href="projects.html" class="more">See all projects and experience</a></div>
   </div>
 </section>
@@ -79,7 +79,7 @@ nav: index
       <p class="lead">International training in road maintenance, asset management and performance-based contracting.</p>
     </div>
     {{intl}}
-    <p class="note">Professional training completed by the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
+    <p class="fine plain">Training completed by the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
   </div>
 </section>
 
@@ -289,8 +289,8 @@ nav: projects
   <div class="wrap">
     <div class="head">
       <span class="eyebrow">Selected professional experience</span>
-      <h2>An ETB 40 billion programme. Ten road contracts.</h2>
-      <p class="lead">Undertaken during the founder&rsquo;s previous professional service. They are not contracts executed by Anchor Point Engineers and Consultants.</p>
+      <h2>An ETB 40 billion programme. Ten road contracts.<sup class="ast">*</sup></h2>
+      <p class="lead">Major road programmes and contracts across Ethiopia.</p>
     </div>
     {{radial}}
     <div class="stats three" style="margin-top:72px">
@@ -299,7 +299,7 @@ nav: projects
       <div class="stat"><b>ETB 17.52B</b><p>Combined contract value</p></div>
     </div>
     {{projects:all}}
-    <p class="note">These figures reflect the professional experience of the firm&rsquo;s leadership. They are not Anchor Point&rsquo;s corporate revenue or company portfolio.</p>
+    <p class="fine">Undertaken during the founder&rsquo;s previous professional service, not contracts executed by Anchor Point Engineers and Consultants. Figures are not Anchor Point&rsquo;s corporate revenue or portfolio.</p>
   </div>
 </section>
 
@@ -311,7 +311,7 @@ nav: projects
       <p class="lead">International training in road maintenance, asset management and performance-based contracting.</p>
     </div>
     {{intl}}
-    <p class="note">Professional training completed by the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
+    <p class="fine plain">Training completed by the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
   </div>
 </section>
 
