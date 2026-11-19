@@ -20,7 +20,7 @@ import re
 ROOT = pathlib.Path(__file__).parent
 
 # ── Settings to complete before launch ──────────────────────────────────────
-BASE_URL = ""        # e.g. "https://www.example.com" — enables canonical URLs, og:url and sitemap.xml
+BASE_URL = "https://anchorpointengineers.com"        # e.g. "https://www.example.com" — enables canonical URLs, og:url and sitemap.xml
 FORM_ENDPOINT = ""   # inquiry backend URL — the contact form does not submit until this is set
 COMPANY_EMAIL = ""   # verified company email address — never invent one
 TELEGRAM_USERNAME = ""  # the firm's Telegram username, without "@". When set, the contact form opens
