@@ -295,7 +295,7 @@ def page(slug, meta, body):
   <div class="wrap hdr-in">
     <div class="brand">
       <a href="index.html" class="logo" aria-label="Anchor Point Engineers and Consultants — home">{MARK}<span><b>Anchor Point</b><span>Engineers &amp; Consultants</span></span></a>
-      <a href="technology.html" class="with" aria-label="In partnership with North Point AI"><span>In partnership with</span>{NP_LOGO}</a>
+      <a href="https://northpoint-ai.com" target="_blank" rel="noopener" class="with" aria-label="In partnership with North Point AI — opens northpoint-ai.com"><span>In partnership with</span>{NP_LOGO}</a>
     </div>
     <button class="burger" id="burger" aria-label="Menu" aria-controls="nav" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav" id="nav" aria-label="Main">{"".join(links)}</nav>
