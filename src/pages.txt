@@ -15,14 +15,44 @@ nav: index
   {{road}}
 </section>
 
+<!-- The two headline selling points. Founder's experience at ERA and international training. VERIFY both. -->
+<section class="sec ivory" style="padding-top:64px">
+  <div class="wrap">
+    <div class="head">
+      <h2>National scale. International training.</h2>
+    </div>
+    <div class="g2 hl">
+      <div class="card big dark">
+        <span class="eyebrow">National scale</span>
+        <b class="hl-n">ETB 40B</b>
+        <h3>Addis Ababa radial road projects.</h3>
+        <p>Coordinated at the Ethiopian Roads Administration, with a combined value of ETB 40 billion.<sup class="ast">*</sup></p>
+        <a href="projects.html" class="more">Projects and experience</a>
+      </div>
+      <div class="card big">
+        <span class="eyebrow">International training</span>
+        <b class="hl-n">4 countries</b>
+        <ul class="cities">
+          <li><b>London</b><span>Performance-based contracting</span></li>
+          <li><b>Hiroshima</b><span>Road maintenance, JICA</span></li>
+          <li><b>Beijing</b><span>Digital infrastructure operation</span></li>
+          <li><b>Dubai</b><span>Asset management, ISO 55000</span></li>
+        </ul>
+        <a href="leadership.html" class="more">Leadership and credentials</a>
+      </div>
+    </div>
+    <p class="fine">Experience and training of the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
+  </div>
+</section>
+
 <!-- VERIFY all four figures; remove any that cannot be substantiated. -->
-<section class="sec ivory" style="padding-top:72px">
+<section class="sec" style="padding:88px 0">
   <div class="wrap">
     <div class="stats">
       <div class="stat"><b>15+</b><p>Years of engineering experience</p></div>
-      <div class="stat"><b>ETB 40B</b><p>Addis Ababa radial road projects coordinated<sup class="ast">*</sup></p></div>
       <div class="stat"><b>50+</b><p>Projects and assignments in the founder&rsquo;s career<sup class="ast">*</sup></p></div>
-      <div class="stat"><b>4</b><p>Countries of international training</p></div>
+      <div class="stat"><b>ETB 17.52B</b><p>Value of ten featured road contracts<sup class="ast">*</sup></p></div>
+      <div class="stat"><b>187.9 km</b><p>Road length across those contracts<sup class="ast">*</sup></p></div>
     </div>
     <p class="fine">Professional experience of the firm&rsquo;s leadership, not Anchor Point&rsquo;s corporate revenue or portfolio.</p>
   </div>
@@ -62,28 +92,15 @@ nav: index
   <div class="wrap">
     <div class="head">
       <h2>Experience you can measure.<sup class="ast">*</sup></h2>
-      <p class="lead">Major road programmes and contracts across Ethiopia.</p>
+      <p class="lead">Ten road construction contracts across Ethiopia.</p>
     </div>
-    {{radial}}
     {{projects:5}}
     <p class="fine">Undertaken during the founder&rsquo;s previous professional service, not contracts executed by Anchor Point Engineers and Consultants.</p>
     <div class="btns"><a href="projects.html" class="more">See all projects and experience</a></div>
   </div>
 </section>
 
-<!-- International training of the founder. VERIFY against certificates. -->
 <section class="sec">
-  <div class="wrap">
-    <div class="head">
-      <h2>Trained across four countries. Applied in Ethiopia.</h2>
-      <p class="lead">International training in road maintenance, asset management and performance-based contracting.</p>
-    </div>
-    {{intl}}
-    <p class="fine plain">Training completed by the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
-  </div>
-</section>
-
-<section class="sec ivory">
   <div class="wrap">
     <div class="profile">
       {{portrait}}
