@@ -140,12 +140,39 @@ def network():
 
 NET = network().replace("2.500", "2.5").replace("2.200", "2.2")
 
-IMAGINE = """<div class="imagine">
-  <div class="im"><small class="spark">Imagine</small><h3>A road that reports its own condition.</h3><p>Every kilometre understood continuously, so maintenance happens before the damage does.</p></div>
-  <div class="im"><small class="spark">Imagine</small><h3>A delay you can see months before it arrives.</h3><p>Schedules, weather, supply and site records read together, pointing to what will slip next.</p></div>
-  <div class="im"><small class="spark">Imagine</small><h3>Ten thousand pages, read before the first meeting.</h3><p>Every contract, drawing and letter understood, with every conflict already found.</p></div>
-  <div class="im"><small class="spark">Imagine</small><h3>Ask your project anything. Get an answer.</h3><p>The whole history of a project, available to the people deciding its future.</p></div>
-</div>"""
+def _im(title, text):
+    return f'<div class="im"><h3>{title}</h3><p>{text}</p></div>'
+
+
+def _im_group(label, tiles):
+    return (f'<div class="im-g"><p class="im-k"><span class="spark">{label}</span></p>'
+            f'<div class="im-row">{"".join(_im(t, p) for t, p in tiles)}</div></div>')
+
+
+# Statements of ambition for AI in Ethiopian construction — not services delivered today.
+IMAGINE = '<div class="imagine">' + _im_group("Engineering", [
+    ("A design checked against every standard, overnight.",
+     "Drawings and specifications compared with the design manuals clause by clause, with every gap listed by morning."),
+    ("Every kilometre surveyed from a phone on the dashboard.",
+     "Video from an ordinary vehicle turned into a map of potholes, cracks and blocked drains, district by district."),
+    ("Quantities taken from the drawings, not from estimates.",
+     "Bills of quantities measured automatically and checked against the design before the tender goes out."),
+]) + _im_group("Project management", [
+    ("A delay you can see months before it arrives.",
+     "Schedules, the rainy season, right-of-way and material supply read together, pointing to what will slip next."),
+    ("Next quarter&rsquo;s cement price, in today&rsquo;s budget.",
+     "Cement, steel, bitumen and fuel prices tracked, so price escalation is forecast instead of discovered."),
+    ("One screen that tells the truth about fifty projects.",
+     "Progress, cost and risk across every district, built from site data and not from last month&rsquo;s report."),
+]) + _im_group("Construction management", [
+    ("A payment certificate checked in an hour, not a month.",
+     "Measured quantities, rates and earlier payments verified line by line, ready for the engineer&rsquo;s decision."),
+    ("Ten thousand pages, read before the first meeting.",
+     "Every contract clause, letter and notice understood, with each deadline and conflict already found."),
+    ("A site diary that writes itself.",
+     "Photos, voice notes and equipment logs from remote sites become the daily record that settles claims."),
+]) + ('<div class="im wide"><h3>Ask your project anything. In Amharic or English.</h3>'
+      '<p>The whole history of a project, available to the people deciding its future.</p></div></div>')
 
 TRIAD = '<p class="triad"><span>See further.</span><span>Decide sooner.</span><span>Build with confidence.</span></p>'
 

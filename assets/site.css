@@ -148,14 +148,22 @@ a.card:hover{transform:scale(1.015)}
 @keyframes pulse{50%{opacity:.35;transform:scale(.7)}}
 .net .star{animation:twinkle 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes twinkle{50%{transform:scale(1.22) rotate(20deg);opacity:.85}}
-.imagine{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--gap);text-align:left;margin-top:28px}
-.im{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.09);border-radius:var(--r);padding:38px 36px 36px;overflow:hidden}
-.im::after{content:'';position:absolute;inset:auto -30% -60% auto;width:70%;height:90%;background:radial-gradient(closest-side,rgba(142,124,255,.22),transparent);pointer-events:none}
-.im:nth-child(2)::after{background:radial-gradient(closest-side,rgba(94,224,216,.2),transparent)}
-.im:nth-child(3)::after{background:radial-gradient(closest-side,rgba(242,196,109,.18),transparent)}
-.im small{display:block;font-size:14px;font-weight:700;margin-bottom:14px}
-.im h3{font-size:clamp(24px,2.7vw,34px);line-height:1.12;letter-spacing:-.03em;max-width:15ch;margin-bottom:12px}
-.im p{font-size:16px;line-height:1.5;color:#9AA2AF;max-width:34ch;position:relative;z-index:1}
+.imagine{text-align:left;margin-top:36px}
+.im-g+.im-g{margin-top:56px}
+.im-k{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:16px}
+.im-k::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.18),rgba(255,255,255,0))}
+.im-row{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
+.im{position:relative;display:flex;flex-direction:column;background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.09);border-radius:var(--r);padding:32px 30px 32px;overflow:hidden;transition:border-color .3s,transform .35s cubic-bezier(.2,.7,.2,1)}
+.im:hover{border-color:rgba(255,255,255,.22);transform:translateY(-3px)}
+.im::after{content:'';position:absolute;inset:auto -30% -60% auto;width:75%;height:90%;background:radial-gradient(closest-side,rgba(94,224,216,.2),transparent);pointer-events:none}
+.im-g:nth-child(2) .im::after{background:radial-gradient(closest-side,rgba(142,124,255,.24),transparent)}
+.im-g:nth-child(3) .im::after{background:radial-gradient(closest-side,rgba(242,196,109,.18),transparent)}
+.im h3{font-size:clamp(21px,2.05vw,26px);line-height:1.15;letter-spacing:-.028em;margin-bottom:12px}
+.im p{font-size:15.5px;line-height:1.5;color:#9AA2AF;position:relative;z-index:1}
+.im.wide{margin-top:56px;text-align:center;align-items:center;padding:56px 32px;background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.035))}
+.im.wide::after{inset:auto 15% -70% 15%;width:70%;height:110%;background:radial-gradient(closest-side,rgba(142,124,255,.3),rgba(94,224,216,.08) 70%,transparent)}
+.im.wide h3{font-size:clamp(28px,3.8vw,48px);letter-spacing:-.035em;max-width:18ch;margin-bottom:14px}
+.im.wide p{font-size:17px;max-width:44ch}
 .triad{font-size:clamp(32px,5vw,64px);font-weight:700;letter-spacing:-.04em;line-height:1.08;color:#fff;margin:110px auto 0}
 .triad span{display:block}
 .triad span:nth-child(2){opacity:.62}.triad span:nth-child(3){opacity:.36}
@@ -295,6 +303,8 @@ form.inq .btn{width:100%;padding:16px;margin-top:6px}
   .bars li{grid-template-columns:150px 1fr 150px 64px;gap:14px}
   .ftr-g{grid-template-columns:1fr 1fr;gap:32px}
   .triad{margin-top:84px}
+  .im-row{grid-template-columns:1fr 1fr}
+  .im-row .im:last-child{grid-column:1/-1}
 }
 @media (max-width:680px){
   body{font-size:16.5px}
@@ -309,7 +319,7 @@ form.inq .btn{width:100%;padding:16px;margin-top:6px}
   .with img{height:20px}
   .brand{gap:12px}
   .nav{padding:8px 20px 24px}
-  .g2,.g3,.g4,.g5,.f2,.checks,.imagine{grid-template-columns:1fr}
+  .g2,.g3,.g4,.g5,.f2,.checks,.im-row{grid-template-columns:1fr}
   .card{padding:26px 24px}
   .card.big{padding:32px 26px}
   .btns .btn{width:100%}
@@ -318,7 +328,9 @@ form.inq .btn{width:100%;padding:16px;margin-top:6px}
   .fstep{display:grid;grid-template-columns:44px 1fr;gap:0 12px;align-items:start;padding:22px}
   .fstep::before{margin-bottom:0;grid-row:span 2;font-size:34px}
   .fstep p{grid-column:2}
-  .im{padding:30px 26px}
+  .im{padding:26px 24px}
+  .im.wide{padding:40px 24px;margin-top:40px}
+  .im-g+.im-g{margin-top:40px}
   .bars li{grid-template-columns:1fr auto;gap:8px 12px;padding:16px 0}
   .bar-n{grid-column:1/-1}
   .bar-t{grid-column:1/-1;order:3}

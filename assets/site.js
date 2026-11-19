@@ -23,7 +23,7 @@
       es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('rise'); io.unobserve(e.target); } });
     }, { threshold: 0.12 });
     var vh = window.innerHeight;
-    document.querySelectorAll('.head,.card,.im,.fstep,.stat,.profile,.triad,.bars li,.checks li,form.inq').forEach(function (el, i) {
+    document.querySelectorAll('.head,.card,.im,.im-k,.fstep,.stat,.profile,.triad,.bars li,.checks li,form.inq').forEach(function (el, i) {
       if (el.getBoundingClientRect().top > vh * 0.92) { el.style.animationDelay = (i % 4) * 70 + 'ms'; io.observe(el); }
     });
   }
