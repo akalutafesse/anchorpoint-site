@@ -21,7 +21,11 @@ ul,ol{list-style:none}
 /* Type */
 h1,h2,h3,h4{color:var(--ink);font-weight:700;letter-spacing:-.032em;line-height:1.07}
 h1{font-size:clamp(40px,6.4vw,80px)}
-h2{font-size:clamp(32px,4.6vw,56px)}
+h2{font-size:clamp(30px,4.1vw,48px)}
+h1,h2,.lead{text-wrap:balance}
+h1 .s,h2 .s{display:inline-block}
+a.np{color:inherit;text-decoration:underline;text-decoration-color:rgba(184,154,104,.7);text-decoration-thickness:1px;text-underline-offset:.18em;transition:text-decoration-color .2s}
+a.np:hover{text-decoration-color:currentColor}
 h3{font-size:21px;line-height:1.22;letter-spacing:-.018em}
 h4{font-size:13px;letter-spacing:0}
 .eyebrow{display:block;font-size:14px;font-weight:700;color:var(--bronze-d);margin-bottom:12px;letter-spacing:0}
@@ -71,7 +75,8 @@ h4{font-size:13px;letter-spacing:0}
 /* Sections: one centred column, one idea each */
 .sec{padding:120px 0}
 .ivory,.mist{background:var(--alt)}
-.head{max-width:780px;margin:0 auto 56px;text-align:center}
+.head{max-width:1064px;margin:0 auto 56px;text-align:center}
+.head .lead{max-width:880px;margin-left:auto;margin-right:auto}
 .head h2+.lead,.head h1+.lead{margin-top:18px}
 .head .lead+.lead{margin-top:12px}
 .head .more{margin-top:20px}
@@ -100,7 +105,7 @@ a.card:hover{transform:scale(1.015)}
 
 /* Home hero */
 .hero{text-align:center;padding:92px 0 0;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#fff 55%,var(--alt) 100%)}
-.hero h1{font-size:clamp(30px,4.7vw,58px);max-width:25ch;margin:0 auto 22px;text-wrap:balance}
+.hero h1{font-size:clamp(30px,4.3vw,52px);max-width:1064px;margin:0 auto 22px;text-wrap:balance}
 .hero h1 span{display:block}
 .hero .lead{max-width:44ch;margin:0 auto}
 .hero .road{display:block;width:min(100%,860px);height:auto;margin:36px auto 0}
@@ -114,8 +119,8 @@ a.card:hover{transform:scale(1.015)}
 
 /* Page hero (inner pages) */
 .phero{text-align:center;padding:104px 0 20px}
-.phero h1{max-width:16ch;margin:0 auto;font-size:clamp(38px,5.6vw,68px)}
-.phero .lead{max-width:44ch;margin:20px auto 0}
+.phero h1{margin:0 auto;font-size:clamp(34px,5vw,60px)}
+.phero .lead{max-width:880px;margin:20px auto 0}
 .phero .eyebrow{margin-bottom:14px}
 .phero+.sec{padding-top:84px}
 
@@ -158,8 +163,8 @@ a.card:hover{transform:scale(1.015)}
 .ai h1,.ai h2,.ai h3{color:#fff}
 .spark{background:var(--spark);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 .ai-tag{display:inline-block;font-size:15px;font-weight:700;margin-bottom:18px}
-.ai-h{font-size:clamp(40px,6.8vw,88px);max-width:12ch;margin:0 auto 24px;line-height:1.02}
-.ai .lead{color:#B4BBC7;max-width:42ch;margin:0 auto}
+.ai-h{font-size:clamp(38px,6.2vw,78px);margin:0 auto 24px;line-height:1.03}
+.ai .lead{color:#B4BBC7;max-width:52ch;margin:0 auto}
 .net{display:block;width:min(100%,980px);height:auto;margin:10px auto 0}
 .net .flow{stroke-dasharray:5 15;animation:dash 2.6s linear infinite}
 .net .node{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
@@ -241,8 +246,8 @@ a.card:hover{transform:scale(1.015)}
 
 /* Closing inquiry section */
 .cta{background:var(--alt)}
-.cta-g{display:grid;grid-template-columns:5fr 6fr;gap:64px;align-items:start}
-.cta-g h2{font-size:clamp(32px,4vw,48px)}
+.cta-g{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.cta-g h2{font-size:clamp(28px,2.9vw,36px)}
 .cta-g h2+.lead{margin-top:16px}
 .clist{margin-top:30px}
 .clist li{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-top:1px solid #DADDE2;color:var(--ink);font-weight:600;font-size:16px;line-height:1.5}

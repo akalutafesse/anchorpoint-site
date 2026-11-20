@@ -268,6 +268,37 @@ def cta(heading):
 </section>"""
 
 
+NP_URL = "https://northpoint-ai.com"
+
+
+def link_north_point(body):
+    """Every text mention of North Point AI links to their site (skips text already inside a link)."""
+    out, depth = [], 0
+    for part in re.split(r"(<[^>]+>)", body):
+        if part.startswith("<"):
+            if re.match(r"<a\b", part):
+                depth += 1
+            elif part.startswith("</a"):
+                depth = max(0, depth - 1)
+        elif depth == 0 and "North Point AI" in part:
+            part = part.replace("North Point AI", f'<a class="np" href="{NP_URL}" target="_blank" rel="noopener">North Point AI</a>')
+        out.append(part)
+    return "".join(out)
+
+
+def sentence_spans(body):
+    """Headings with two sentences break between the sentences, never mid-sentence, when they cannot fit on one line."""
+    def fix(m):
+        inner = m.group(3)
+        if "<span" in inner or "<a" in inner:
+            return m.group(0)
+        parts = re.split(r"(?<=[.?!])\s+(?=[A-Z])", inner)
+        if len(parts) < 2:
+            return m.group(0)
+        return f"<{m.group(1)}{m.group(2)}>" + " ".join(f'<span class="s">{p}</span>' for p in parts) + f"</{m.group(1)}>"
+    return re.sub(r"<(h1|h2)([^>]*)>(.*?)</\1>", fix, body, flags=re.S)
+
+
 def expand(body):
     body = re.sub(r"<!--.*?-->\n?", "", body, flags=re.S)
     body = re.sub(r"\{\{i:([a-z]+)\}\}", lambda m: icon(m.group(1)), body)
@@ -288,7 +319,7 @@ def expand(body):
     left = re.findall(r"\{\{[^}]*\}\}", body)
     if left:
         raise SystemExit(f"unknown tokens: {sorted(set(left))}")
-    return body
+    return link_north_point(sentence_spans(body))
 
 
 def page(slug, meta, body):

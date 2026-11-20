@@ -112,7 +112,7 @@ nav: index
   </div>
 </section>
 
-{{cta:Let&rsquo;s talk about your project.}}
+{{cta:Let&rsquo;s discuss your project.}}
 
 === about
 title: About Anchor Point | Engineering Consultancy Ethiopia
@@ -191,7 +191,7 @@ nav: services
     <div class="head">
       <span class="eyebrow">Engineering</span>
       <h2>Engineering &amp; Technical Consultancy</h2>
-      <p class="lead">Technical advice to help you plan, assess and design infrastructure projects on a sound footing.</p>
+      <p class="lead">Technical advice to plan, assess and design projects on a sound footing.</p>
     </div>
     <div class="g4">
       <div class="card"><span class="ico">{{i:search}}</span><h3>Feasibility Studies</h3><p>Technical assessment of a proposed project before you commit to it.</p></div>
@@ -224,7 +224,7 @@ nav: services
     <div class="head">
       <span class="eyebrow">Maintenance</span>
       <h2>Infrastructure &amp; Asset Management</h2>
-      <p class="lead">Helping owners move from reacting to failures toward planned, evidence-based maintenance.</p>
+      <p class="lead">From reacting to failures to planned, evidence-based maintenance.</p>
     </div>
     <div class="g3">
       <div class="card"><span class="ico">{{i:road}}</span><h3>Road Asset Management</h3><p>Condition analysis and maintenance planning for road networks.</p></div>
@@ -265,7 +265,7 @@ nav: services
   <div class="wrap">
     <span class="eyebrow">Sectors</span>
     <h1>Built around the people who build.</h1>
-    <p class="lead">Different organizations face different challenges. We shape our services around yours.</p>
+    <p class="lead">We shape our services around the challenges you face.</p>
   </div>
 </section>
 
@@ -295,7 +295,7 @@ nav: projects
   <div class="wrap">
     <span class="eyebrow">Projects &amp; Professional Experience</span>
     <h1>Experience you can measure.</h1>
-    <p class="lead">Selected road contracts and professional work across Ethiopia that shape how Anchor Point&rsquo;s leadership works today.</p>
+    <p class="lead">The road programmes and contracts behind Anchor Point&rsquo;s leadership.</p>
   </div>
 </section>
 
@@ -325,7 +325,7 @@ nav: projects
   <div class="wrap">
     <div class="head">
       <h2>Trained across four countries.</h2>
-      <p class="lead">International training in road maintenance, asset management and performance-based contracting.</p>
+      <p class="lead">Road maintenance, asset management and performance-based contracting.</p>
     </div>
     {{intl}}
     <p class="fine plain">Training completed by the firm&rsquo;s founder, who has also presented in London, China, Dubai and Japan.</p>
@@ -523,7 +523,7 @@ nav: services
   </div>
 </section>
 
-{{cta:Discuss a training programme for your team.}}
+{{cta:Train your team.}}
 
 === faq
 title: Frequently Asked Questions | Anchor Point Engineers & Consultants
@@ -545,7 +545,7 @@ nav: contact
       <details><summary>Can Anchor Point provide independent construction supervision?</summary><p>Yes, within our qualified areas of practice. We check the works against the approved designs, specifications and contract.</p></details>
       <details><summary>Can you join a project that is already under construction?</summary><p>Yes. Depending on the project, we can provide a project review, technical assessment, monitoring, construction oversight and advice.</p></details>
       <details><summary>What is your approach to project management?</summary><p>Structured planning, continuous monitoring, close coordination and early attention to risk.</p></details>
-      <details><summary>How does Anchor Point use AI and digital technology?</summary><p>We use digital tools and AI-assisted analysis for document review, project information analysis, monitoring and reporting. Professional engineers remain responsible for reviewing and interpreting the results.</p></details>
+      <details><summary>How does Anchor Point use AI and digital technology?</summary><p>Think of it as a second pair of eyes that never tires. With our partner North Point AI, we use AI to read contracts, drawings and correspondence, watch schedules for early signs of delay and check quantities and payments line by line. That frees our engineers for what only engineers can do: judge, decide and take responsibility. Nothing becomes advice until a qualified engineer has reviewed it.</p></details>
       <details><summary>How do you protect confidential project information?</summary><p>We treat client project information as confidential and handle it in line with our contractual obligations and information-management procedures. Specific data handling arrangements can be agreed for each engagement.</p></details>
       <details><summary>Can you provide a proposal for a project?</summary><p>Yes. Send us an outline of the project, its location and what you need, and we will review it and advise on next steps.</p></details>
       <details><summary>Where does Anchor Point operate?</summary><p>We are based in Addis Ababa and serve clients across Ethiopia.</p></details>
