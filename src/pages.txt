@@ -105,7 +105,7 @@ nav: index
   <div class="wrap">
     <div class="profile">
       {{portrait}}
-      <h3>Eng. Biniyam Regassa Merga</h3>
+      <h3>Eng. Biniyam Regassa</h3>
       <span class="role">Founder &amp; Chief Executive Officer</span>
       <ul class="tags"><li>M.Sc. Civil Engineering</li><li>Practicing Professional Engineer</li></ul>
       <a href="leadership.html" class="more">Meet our leadership</a>
@@ -409,7 +409,7 @@ nav: technology
 
 === leadership
 title: Leadership & Professional Expertise | Anchor Point
-desc: Anchor Point is led by Eng. Biniyam Regassa Merga, Founder and Chief Executive Officer, an infrastructure and engineering professional with more than 15 years of experience in Ethiopia.
+desc: Anchor Point is led by Eng. Biniyam Regassa, Founder and Chief Executive Officer, an infrastructure and engineering professional with more than 15 years of experience in Ethiopia.
 nav: about
 
 <section class="phero">
@@ -418,19 +418,19 @@ nav: about
   </div>
 </section>
 
-<!-- Supply assets/photos/leadership-portrait.jpg and assets/cv/Biniyam-Regassa-Merga-CV.pdf.
+<!-- Supply assets/photos/leadership-portrait.jpg and assets/cv/Biniyam-Regassa-CV.pdf.
      VERIFY biography, exact titles and appointment dates. -->
 <section class="sec">
   <div class="wrap">
     <div class="profile">
       {{portrait}}
-      <h2>Eng. Biniyam Regassa Merga</h2>
+      <h2>Eng. Biniyam Regassa</h2>
       <span class="role">Founder &amp; Chief Executive Officer</span>
       <ul class="tags"><li>M.Sc. Civil Engineering</li><li>Practicing Professional Engineer</li></ul>
       <div class="btns">{{cv}}<a href="#inquiry" class="btn solid">Discuss a Project</a></div>
     </div>
     <div class="bio">
-        <p class="lead">Eng. Biniyam Regassa Merga is an infrastructure and engineering professional with more than 15 years of experience in road development, project management and road asset management in Ethiopia.</p>
+        <p class="lead">Eng. Biniyam Regassa is an infrastructure and engineering professional with more than 15 years of experience in road development, project management and road asset management in Ethiopia.</p>
         <p>During his career at the Ethiopian Roads Administration, he progressed from Project Engineer to senior responsibilities within Road Asset Management, including serving in an acting road maintenance director capacity.</p>
         <p>At ERA he coordinated the Addis Ababa radial road projects, with a combined value of ETB 40 billion, and represented ERA on JICA road asset management work.</p>
         <p>His experience includes major road construction programmes, maintenance systems, performance-based road maintenance, monitoring frameworks and the use of digital technology in infrastructure management.</p>

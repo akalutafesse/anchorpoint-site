@@ -29,7 +29,7 @@ FORM_ENDPOINT = ""      # URL of the form-to-Telegram service (see worker/). The
 TELEGRAM_USERNAME = ""  # alternative: the firm's Telegram username, without "@". Opens Telegram with
                         # the inquiry pre-written for the visitor to send. Never guess it.
 COMPANY_EMAIL = ""      # verified company email address — never invent one
-CV_FILE = "assets/cv/Biniyam-Regassa-Merga-CV.pdf"
+CV_FILE = "assets/cv/Biniyam-Regassa-CV.pdf"
 PORTRAIT = "assets/photos/leadership-portrait.jpg"
 OG_IMAGE = ""           # e.g. "assets/og-image.jpg" once a share image exists
 # ────────────────────────────────────────────────────────────────────────────
@@ -311,7 +311,7 @@ def expand(body):
     body = body.replace("{{triad}}", TRIAD).replace("{{duo}}", DUO)
     body = body.replace("{{radial}}", RADIAL).replace("{{intl}}", INTL)
     body = body.replace("{{nplogo}}", NP_LOGO)
-    portrait = (f'<img class="portrait" src="{PORTRAIT}" alt="Eng. Biniyam Regassa Merga, Founder and Chief Executive Officer" loading="lazy">'
+    portrait = (f'<img class="portrait" src="{PORTRAIT}" alt="Eng. Biniyam Regassa, Founder and Chief Executive Officer" loading="lazy">'
                 if (ROOT / PORTRAIT).exists() else '<span class="portrait mono" aria-hidden="true">BR</span>')
     body = body.replace("{{portrait}}", portrait)
     cv = (f'<a class="btn line" href="{CV_FILE}" download>Download CV (PDF)</a>' if (ROOT / CV_FILE).exists() else "")
