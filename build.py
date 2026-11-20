@@ -383,7 +383,6 @@ def page(slug, meta, body):
       </div>
     </div>
     <div class="ftr-b">
-      <b>Engineering expertise. Infrastructure that delivers.</b>
       <span>&copy; <span id="yr">2026</span> Anchor Point Engineers and Consultants. All rights reserved.</span>
     </div>
   </div>
