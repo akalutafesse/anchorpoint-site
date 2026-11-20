@@ -2,4 +2,7 @@ name = "anchorpoint-inquiry"
 main = "index.js"
 compatibility_date = "2026-01-01"
 workers_dev = false
-routes = [{ pattern = "inquiry.anchorpointengineers.com", custom_domain = true }]
+routes = [
+  { pattern = "inquiry.anchorpointengineers.com", custom_domain = true },
+  { pattern = "forms.anchorpointengineers.com", custom_domain = true },
+]
