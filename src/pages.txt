@@ -67,6 +67,7 @@ nav: index
     {{net}}
     {{imagine}}
     {{triad}}
+    <p class="ai-line"><span>AI never blinks.</span> <span class="spark">Engineers always decide.</span></p>
     <p class="ai-now"><b>Where we are today.</b> AI already works alongside our engineers on documents, schedules and project data. Every result is checked by a qualified engineer before it becomes advice.</p>
     <a href="technology.html" class="more">Explore the partnership</a>
   </div>
