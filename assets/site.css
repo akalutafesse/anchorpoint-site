@@ -100,9 +100,9 @@ a.card:hover{transform:scale(1.015)}
 
 /* Home hero */
 .hero{text-align:center;padding:92px 0 0;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#fff 55%,var(--alt) 100%)}
-.hero h1{font-size:clamp(38px,5.7vw,70px);margin:0 auto 22px}
+.hero h1{font-size:clamp(30px,4.7vw,58px);max-width:25ch;margin:0 auto 22px;text-wrap:balance}
 .hero h1 span{display:block}
-.hero .lead{max-width:34ch;margin:0 auto}
+.hero .lead{max-width:44ch;margin:0 auto}
 .hero .road{display:block;width:min(100%,860px);height:auto;margin:36px auto 0}
 .road .dash{animation:dash 2.4s linear infinite}
 @keyframes dash{to{stroke-dashoffset:-60}}

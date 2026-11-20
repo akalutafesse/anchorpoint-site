@@ -5,8 +5,8 @@ nav: index
 
 <section class="hero">
   <div class="wrap">
-    <h1><span>Engineering expertise.</span> <span>Infrastructure that delivers.</span></h1>
-    <p class="lead">Engineering, project management and infrastructure advisory for Ethiopia.</p>
+    <h1>Engineering, project management and infrastructure advisory for Ethiopia.</h1>
+    <p class="lead">From the first study to long-term maintenance.</p>
     <div class="btns">
       <a href="#inquiry" class="btn solid">Discuss a Project</a>
       <a href="services.html" class="more">Our services</a>
