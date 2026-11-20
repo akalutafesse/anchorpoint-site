@@ -43,7 +43,12 @@ export default {
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ chat_id: env.TELEGRAM_CHAT_ID, text: lines.join('\n'), disable_web_page_preview: true }),
     });
-    if (!res.ok) return reply(502, { ok: false, error: 'delivery' }); // the site shows "could not send" — never a false success
+    if (!res.ok) {
+      // Log Telegram's reason (never the token) so a failed delivery can be diagnosed with `wrangler tail`.
+      console.log('telegram', res.status, (await res.text()).slice(0, 200));
+      return reply(502, { ok: false, error: 'delivery' });
+    }
+    // The site shows "could not send" — never a false success
     return reply(200, { ok: true });
   },
 };

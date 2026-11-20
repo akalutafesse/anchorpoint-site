@@ -25,7 +25,7 @@ ROOT = pathlib.Path(__file__).parent
 
 # ── Settings to complete ────────────────────────────────────────────────────
 BASE_URL = "https://anchorpointengineers.com"
-FORM_ENDPOINT = ""      # URL of the form-to-Telegram service (see worker/). The form posts here.
+FORM_ENDPOINT = "https://inquiry.anchorpointengineers.com/"      # URL of the form-to-Telegram service (see worker/). The form posts here.
 TELEGRAM_USERNAME = ""  # alternative: the firm's Telegram username, without "@". Opens Telegram with
                         # the inquiry pre-written for the visitor to send. Never guess it.
 COMPANY_EMAIL = ""      # verified company email address — never invent one
